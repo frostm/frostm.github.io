@@ -7,14 +7,6 @@ p {
 	font-family: sans-serif;
 }
 
-h2 {
-	font-family: sans-serif;
-	font-size: 36pt;
-	color: blue;
-	text-decoration: underline;
-	text-align: center;
-}
-
 .hi {
 	width: 1200px;
 	height: 200px;
@@ -22,5 +14,10 @@ h2 {
 	position: absolute;
 	bottom: 0;
 	left: 0;
+	font-family: sans-serif;
+	font-size: 36pt;
+	color: blue;
+	text-decoration: underline;
+	text-align: center;
 
 }
