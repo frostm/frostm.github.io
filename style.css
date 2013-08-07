@@ -1,0 +1,11 @@
+body {
+	background-color: #B50E25;
+
+}
+
+.content {
+	width: 600px;
+	height: 800px;
+	position: absolute;
+	margin: 0, auto;
+}
