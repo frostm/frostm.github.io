@@ -9,10 +9,10 @@ p {
 
 a {
 	font-family: sans-serif;
-	font-size: 12pt;
+	font-size: 10pt;
 	color: white;
-	text-decoration: underline;
-	padding: 5px;
+	padding: 10px;
+	margin: 10px
 	background-color: #1FC4AE;
 
 }
