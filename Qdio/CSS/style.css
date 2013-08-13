@@ -1,0 +1,77 @@
+/*header*/
+
+.header {
+	width: 100%;
+	height: 75px;
+	background-color: white;
+	border-bottom: 2px black;
+}
+
+#logo {
+	float: left;
+	padding: 10px;
+}
+
+.headerlinks {
+	float: right;
+	padding: 10px;
+	font-family: sans-serif;
+}
+
+#home {
+	float: left;
+	padding: 10px;
+	margin: 20px;
+	background-color: red;
+	color: white;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+.clear {
+	clear: both;
+}
+
+/* Main Body */
+
+body {
+	background-image: url('../Images/triangular.png')
+}
+
+.container {
+	width: 1200px;
+}
+
+.sidenav {
+	float: left;
+	font-family: sans-serif;
+	width: 200px;
+	height: 100%;
+	background: rgba(0,0,0,.5);
+}
+
+h2 {
+	font-size: 10pt;
+	padding: 10px;
+	color: #b6b6b6;
+}
+
+li {
+	font-size: 12pt;
+	padding: 5px;
+}
+
+li a {
+	text-decoration: none;
+	color: #2391cf;
+}
+
+.content {
+	width: 1050px;
+
+}
+
+.tracks {
+	float: left;
+	padding: 5px;
+}
