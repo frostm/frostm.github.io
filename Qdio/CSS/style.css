@@ -30,6 +30,12 @@
 	margin-right: 10px;
 }
 
+#home:hover {
+	background-color: white;
+	color: #1FC4AE;
+	font-weight: bold;
+}
+
 .clear {
 	clear: both;
 }
