@@ -67,16 +67,72 @@ body {
 }
 
 /*Projects*/
-.projects {
+.Social_Projects {
 	width: 100%;
+	height: 400px;
+	margin-top: 75px;
+	margin-bottom: 75px;
 }
 
-.projects h1 {
+.Social_Projects h1 {
+	text-align: center;
+	font-family: 'Bitter', sans-serif;
+	font-weight: 400;
+	font-size: 14pt;
+	padding-top: 40px;
+	padding-bottom: 15px;
+	padding-left: 25px;
+
+}
+
+.social1 {
+	width: 900px;
+	margin: 0 auto;
+}
+
+
+.social1 div {
+	position: relative;
+	width: 250px;
+	height: 250px;
+	float: left;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 10px;
+
+
+}
+
+.social1 div img {
+	position: absolute;
+	left: 25px;
+	right: 25px;
+
+}
+
+.social1 div a {
+	position: absolute;
+	bottom: 10px;
+	width: 250px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 12pt;
+}
+
+.social1 div a:hover {
+	position: absolute;
+	bottom: 10px;
 	text-align: center;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 400;
 	font-size: 12pt;
+	color: #EF5847;
+	text-decoration: none;
 }
+
 
 /*Clients*/
 
