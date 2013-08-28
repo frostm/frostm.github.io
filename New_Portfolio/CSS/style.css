@@ -21,18 +21,9 @@ body {
 	z-index: 100;
 }
 
-.header h1 {
-	float: left;
-	font-family: 'Bitter', serif;
-	font-weight: 400;
-	font-size: 14pt;
-	margin-left: 15px;
-	margin-top: 30px;
-	z-index: 200;
-}
 
 .header nav{
-	float: right;
+	text-align: right;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 400;
 	font-size: 12pt;
@@ -70,39 +61,108 @@ body {
 	padding: 15px;
 }
 
-/*Projects*/
+/*Branding Projects*/
+
+.Branding_Projects {
+	width: 100%;
+	height: 500px;
+	margin-top: 75px;
+	background-color: #373D39;
+	position: relative;
+}
+
+.Branding_Projects h1 {
+	text-align: center;
+	position: relative;
+	top: 25px;
+	margin: 0 auto;
+	font-family: 'Bitter', sans-serif;
+	font-weight: 400;
+	width: 400px;
+	font-size: 32pt;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: white;
+	color: #373D39;
+	float: left;
+
+}
+
+.Branding_Projects p {
+	position: absolute;
+	left: 400px;
+	text-align: left;
+	margin-left: 15px;
+	width: 275px;
+	top: 33px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 10pt;
+	line-height: 14pt;
+	color: white;
+}
+
+
+
+/*Social Projects*/
 .Social_Projects {
 	width: 100%;
-	height: 400px;
-	margin-top: 75px;
-	margin-bottom: 75px;
+	height: 500px;
+	background-color: #67BFA2;
+	position: relative;
 }
+
+
+
 
 .Social_Projects h1 {
 	text-align: center;
+	position: relative;
+	top: 25px;
+	margin: 0 auto;
 	font-family: 'Bitter', sans-serif;
 	font-weight: 400;
-	font-size: 14pt;
-	padding-top: 40px;
-	padding-bottom: 15px;
-	padding-left: 25px;
+	width: 400px;
+	font-size: 32pt;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: white;
+	color: #67BFA2;
+	float: left;
 
 }
 
+.Social_Projects p {
+	position: absolute;
+	left: 400px;
+	text-align: left;
+	margin-left: 15px;
+	width: 275px;
+	top: 33px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 10pt;
+	line-height: 14pt;
+	color: #373D39;
+}
+
+
+
 .social1 {
 	width: 900px;
+	padding-top: 55px;
 	margin: 0 auto;
 }
 
 
 .social1 div {
 	position: relative;
+	top: 30px;
 	width: 250px;
 	height: 250px;
-	float: left;
-	margin-left: 25px;
-	margin-right: 25px;
+	margin-left: 35px;
 	margin-top: 10px;
+	float: left;
 
 
 }
@@ -116,11 +176,11 @@ body {
 
 .social1 div a {
 	position: absolute;
-	bottom: 10px;
+	bottom: 20px;
 	width: 250px;
 	text-align: center;
 	text-decoration: none;
-	color: black;
+	color: #373D39;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
 	font-size: 12pt;
@@ -133,7 +193,7 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 400;
 	font-size: 12pt;
-	color: #EF5847;
+	color: white;
 	text-decoration: none;
 }
 
