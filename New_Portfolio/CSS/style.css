@@ -25,12 +25,12 @@ body {
 
 
 .header nav{
-	float: left;
+	float: right;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
 	font-size: 12pt;
 	margin-top: 25px;
-	margin-left: 30px;
+	margin-right: 30px;
 	z-index: 200;
 }
 
@@ -49,28 +49,28 @@ body {
 }
 
 .intro {
-	float: right;
+	float: left;
 }
 
 .intro a {
-	float: right;
+	float: left;
 	font-family: 'Bitter', sans-serif;
 	font-size: 24;
 	font-weight: 700;
 	text-decoration: none;
 	color: black;
-	padding-right: 30px;
+	padding-left: 30px;
 	padding-top: 10px;
 }
 
 .intro a:hover {
-	float: right;
+	float: left;
 	font-family: 'Bitter', sans-serif;
 	font-size: 24;
 	font-weight: 700;
 	text-decoration: none;
 	color: #67BFA2;
-	padding-right: 30px;
+	padding-left: 30px;
 	padding-top: 10px;
 }
 
@@ -78,7 +78,7 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
 	font-size: 12pt;
-	padding-right: 25px;
+	padding-left: 30px;
 	padding-top: 5px;
 }
 
@@ -94,26 +94,20 @@ body {
 
 .Branding_Projects h1 {
 	text-align: center;
-	margin-top: 45px;
+	padding-top: 40px;
 	font-family: 'Bitter', sans-serif;
 	font-weight: 400;
-	width: 400px;
 	font-size: 28pt;
-	padding-top: 10px;
 	padding-bottom: 10px;
-	background-color: white;
-	color: #373D39;
-	float: left;
+	color: white;
 
 }
 
 .Branding_Projects p {
-	left: 400px;
-	text-align: left;
-	float: left;
-	margin-top: 50px;
-	margin-left: 15px;
-	width: 275px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+	width: 300px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 400;
 	font-size: 10pt;
@@ -127,6 +121,7 @@ body {
 .Social_Projects {
 	width: 100%;
 	height: 600px;
+	margin: 0 auto;
 	background-color: #67BFA2;
 	border-bottom: 2px solid black;
 }
@@ -136,26 +131,20 @@ body {
 
 .Social_Projects h1 {
 	text-align: center;
-	margin-top: 45px;
 	font-family: 'Bitter', sans-serif;
 	font-weight: 400;
-	width: 400px;
 	font-size: 28pt;
-	padding-top: 10px;
+	padding-top: 40px;
 	padding-bottom: 10px;
-	background-color: white;
-	color: #67BFA2;
-	float: left;
+	color: white;
 
 }
 
 .Social_Projects p {
-	left: 400px;
-	text-align: left;
-	float: left;
-	margin-top: 50px;
-	margin-left: 15px;
-	width: 275px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+	width: 300px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 400;
 	font-size: 10pt;
@@ -166,8 +155,7 @@ body {
 
 
 .social1 {
-	width: 990px;
-	padding-top: 55px;
+	width: 840px;
 	margin: 0 auto;
 }
 
@@ -175,8 +163,8 @@ body {
 .social1 div {
 	width: 230px;
 	height: 250px;
-	margin-left: 100px;
-	margin-top: 50px;
+	padding: 25px;
+	margin-top: 30px;
 	float: left;
 
 
@@ -210,30 +198,28 @@ body {
 /*Clients*/
 
 .client_container {
-	width: 715px;
+	width: 660px;
 	height: 175px;
-	padding: 35px;
 	text-align: center;
 	margin: 30 auto;
 
 }
 
 .client_container h1 {
-	width: 600px;
-	padding: 10px;
-	font-family: 'Bitter', serif;
-	font-weight: 600;
-	font-size: 11pt;
-	text-align: left;
-	top: 10px;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 15px;
+	font-family: 'Bitter', sans-serif;
+	font-weight: 400;
+	font-size: 18pt;
+	padding-bottom: 10px;
+
 }
 
 .clients {
 	width: 200px;
 	float: left;
-	padding-right: 25px;
-	padding-left: 10px;
-	padding-bottom: 35px;
+	padding: 10px;
 	margin: 0 auto;
 }
 
