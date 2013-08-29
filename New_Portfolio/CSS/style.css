@@ -4,6 +4,7 @@ html {
   min-height: 100%;
 }
 body {
+	min-width: 990px;
     margin: 0 0 392px; /* the bottom margin should = the footer height */
 }
 
@@ -15,71 +16,89 @@ body {
 	left: 0;
 	width: 100%;
 	height: 75px;
-	background-image: url(../Images/background.png);
-	opacity: .75;
-	border-top: 2px solid black;
+	background-color: white;
+	opacity: .95;
+	border-bottom: 2px solid black;
 	z-index: 100;
 }
 
 
+
 .header nav{
-	text-align: right;
+	float: left;
 	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 12pt;
 	margin-top: 25px;
-	margin-right: 15px;
+	margin-left: 30px;
 	z-index: 200;
 }
 
 .header a {
 	text-decoration: none;
 	color: black;
-	padding-right: 20px;
+	padding-right: 30px;
 	z-index: 110;
 }
 
-/* Intro */
+.header a:hover {
+	text-decoration: underline;
+	color: #67BFA2;
+	padding-right: 30px;
+	z-index: 110;
+}
+
 .intro {
-	margin-top: 100px;
-	width: 100%;
-	text-align: center;
+	float: right;
 }
 
 .intro a {
+	float: right;
 	font-family: 'Bitter', sans-serif;
 	font-size: 24;
 	font-weight: 700;
 	text-decoration: none;
 	color: black;
+	padding-right: 30px;
+	padding-top: 10px;
+}
+
+.intro a:hover {
+	float: right;
+	font-family: 'Bitter', sans-serif;
+	font-size: 24;
+	font-weight: 700;
+	text-decoration: none;
+	color: #67BFA2;
+	padding-right: 30px;
+	padding-top: 10px;
 }
 
 .intro p {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
 	font-size: 12pt;
-	padding: 15px;
+	padding-right: 25px;
+	padding-top: 5px;
 }
 
 /*Branding Projects*/
 
 .Branding_Projects {
 	width: 100%;
-	height: 500px;
-	margin-top: 75px;
+	height: 600px;
 	background-color: #373D39;
-	position: relative;
+	margin-top: 76px;
+	border-bottom: 2px solid black;
 }
 
 .Branding_Projects h1 {
 	text-align: center;
-	position: relative;
-	top: 25px;
-	margin: 0 auto;
+	margin-top: 45px;
 	font-family: 'Bitter', sans-serif;
 	font-weight: 400;
 	width: 400px;
-	font-size: 32pt;
+	font-size: 28pt;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	background-color: white;
@@ -89,12 +108,12 @@ body {
 }
 
 .Branding_Projects p {
-	position: absolute;
 	left: 400px;
 	text-align: left;
+	float: left;
+	margin-top: 50px;
 	margin-left: 15px;
 	width: 275px;
-	top: 33px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 400;
 	font-size: 10pt;
@@ -107,9 +126,9 @@ body {
 /*Social Projects*/
 .Social_Projects {
 	width: 100%;
-	height: 500px;
+	height: 600px;
 	background-color: #67BFA2;
-	position: relative;
+	border-bottom: 2px solid black;
 }
 
 
@@ -117,13 +136,11 @@ body {
 
 .Social_Projects h1 {
 	text-align: center;
-	position: relative;
-	top: 25px;
-	margin: 0 auto;
+	margin-top: 45px;
 	font-family: 'Bitter', sans-serif;
 	font-weight: 400;
 	width: 400px;
-	font-size: 32pt;
+	font-size: 28pt;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	background-color: white;
@@ -133,12 +150,12 @@ body {
 }
 
 .Social_Projects p {
-	position: absolute;
 	left: 400px;
 	text-align: left;
+	float: left;
+	margin-top: 50px;
 	margin-left: 15px;
 	width: 275px;
-	top: 33px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 400;
 	font-size: 10pt;
@@ -149,52 +166,44 @@ body {
 
 
 .social1 {
-	width: 900px;
+	width: 990px;
 	padding-top: 55px;
 	margin: 0 auto;
 }
 
 
 .social1 div {
-	position: relative;
-	top: 30px;
-	width: 250px;
+	width: 230px;
 	height: 250px;
-	margin-left: 35px;
-	margin-top: 10px;
+	margin-left: 100px;
+	margin-top: 50px;
 	float: left;
 
 
 }
 
-.social1 div img {
-	position: absolute;
-	left: 25px;
-	right: 25px;
-
-}
-
 .social1 div a {
-	position: absolute;
-	bottom: 20px;
-	width: 250px;
+	display: block;
+	margin-top: 15px;
+	padding: 10px;
 	text-align: center;
 	text-decoration: none;
 	color: #373D39;
 	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 12pt;
 }
 
 .social1 div a:hover {
-	position: absolute;
-	bottom: 10px;
+	display: block;
+	padding: 10px;
 	text-align: center;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 400;
-	font-size: 12pt;
-	color: white;
 	text-decoration: none;
+	background-color: white;
+	color: #67BFA2;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 12pt;
 }
 
 
@@ -205,20 +214,17 @@ body {
 	height: 175px;
 	padding: 35px;
 	text-align: center;
-	position: relative;
 	margin: 30 auto;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+
 }
 
 .client_container h1 {
 	width: 600px;
 	padding: 10px;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Bitter', serif;
 	font-weight: 600;
 	font-size: 11pt;
 	text-align: left;
-	position: absolute;
 	top: 10px;
 }
 
@@ -227,12 +233,13 @@ body {
 	float: left;
 	padding-right: 25px;
 	padding-left: 10px;
-	margin: 10 auto 10 auto;
+	padding-bottom: 35px;
+	margin: 0 auto;
 }
 
 
 .clients h2 {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Bitter', serif;
 	font-weight: 600;
 	font-size: 10pt;
 	text-align: left;
