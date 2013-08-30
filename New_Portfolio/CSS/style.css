@@ -1,0 +1,404 @@
+/* Added */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+	min-width: 990px;
+    margin: 0 0 392px; /* the bottom margin should = the footer height */
+}
+
+
+/* Header */
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 75px;
+	background-color: white;
+	opacity: .95;
+	border-bottom: 2px solid #373D39;
+	z-index: 100;
+}
+
+
+
+.header nav{
+	float: right;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 12pt;
+	margin-top: 25px;
+	margin-right: 30px;
+	z-index: 200;
+}
+
+.header a {
+	text-decoration: none;
+	color: #373D39;
+	padding-right: 30px;
+	z-index: 110;
+}
+
+.header a:hover {
+	text-decoration: underline;
+	color: #67BFA2;
+	padding-right: 30px;
+	z-index: 110;
+}
+
+.intro {
+	float: left;
+}
+
+.intro a {
+	float: left;
+	font-family: 'Bitter', sans-serif;
+	font-size: 18;
+	font-weight: 700;
+	text-decoration: none;
+	color: #373D39;
+	padding-left: 30px;
+	padding-top: 15px;
+}
+
+.intro a:hover {
+	float: left;
+	font-family: 'Bitter', sans-serif;
+	font-size: 18;
+	font-weight: 700;
+	text-decoration: none;
+	color: #67BFA2;
+	padding-left: 30px;
+	padding-top: 15px;
+}
+
+.intro p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 12pt;
+	padding-left: 30px;
+	padding-top: 5px;
+}
+
+/*Branding Projects*/
+
+.Branding_Projects {
+	width: 100%;
+	height: 600px;
+	background-color: #373D39;
+	margin-top: 76px;
+	border-bottom: 2px #373D39;
+}
+
+.Branding_Projects h1 {
+	text-align: center;
+	padding-top: 60px;
+	font-family: 'Bitter', sans-serif;
+	font-weight: 400;
+	font-size: 28pt;
+	padding-bottom: 10px;
+	color: white;
+	text-shadow: 2px 2px 1px black;
+
+}
+
+.Branding_Projects p {
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+	width: 300px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 10pt;
+	line-height: 14pt;
+	color: white;
+}
+
+.brand1 {
+	width: 840px;
+	margin: 0 auto;
+}
+
+
+.brand1 div {
+	width: 230px;
+	height: 250px;
+	padding: 25px;
+	margin-top: 30px;
+	float: left;
+
+
+}
+
+.brand1 div a {
+	display: block;
+	margin-top: 15px;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 12pt;
+}
+
+.brand1 div a:hover {
+	display: block;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	background-color: white;
+	color: #373D39;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 12pt;
+}
+
+
+
+/*Social Projects*/
+.Social_Projects {
+	width: 100%;
+	height: 600px;
+	margin: 0 auto;
+	background-color: #67BFA2;
+	border-bottom: 2px solid #373D39;
+}
+
+
+
+
+.Social_Projects h1 {
+	text-align: center;
+	font-family: 'Bitter', sans-serif;
+	font-weight: 400;
+	font-size: 28pt;
+	padding-top: 60px;
+	padding-bottom: 10px;
+	color: white;
+	text-shadow: 2px 2px 1px #397b65;
+
+}
+
+.Social_Projects p {
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+	width: 300px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 10pt;
+	line-height: 14pt;
+	color: #373D39;
+}
+
+
+
+.social1 {
+	width: 840px;
+	margin: 0 auto;
+}
+
+
+.social1 div {
+	width: 230px;
+	height: 250px;
+	padding: 25px;
+	margin-top: 30px;
+	float: left;
+
+
+}
+
+.social1 div a {
+	display: block;
+	margin-top: 15px;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: #373D39;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 12pt;
+}
+
+.social1 div a:hover {
+	display: block;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	background-color: white;
+	color: #67BFA2;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 12pt;
+}
+
+/*Healthcare*/
+
+.Health_Projects {
+	width: 100%;
+	height: 600px;
+	margin: 0 auto;
+	background-color: #c8c09e;
+	border-bottom: 2px solid #373D39;
+}
+
+
+
+
+.Health_Projects h1 {
+	text-align: center;
+	font-family: 'Bitter', sans-serif;
+	font-weight: 400;
+	font-size: 28pt;
+	padding-top: 60px;
+	padding-bottom: 10px;
+	color: white;
+	text-shadow: 2px 2px 1px #7e7241;
+
+}
+
+.Health_Projects p {
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+	width: 300px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 10pt;
+	line-height: 14pt;
+	color: #373D39;
+}
+
+
+
+.health1 {
+	width: 840px;
+	margin: 0 auto;
+}
+
+
+.health1 div {
+	width: 230px;
+	height: 250px;
+	padding: 25px;
+	margin-top: 30px;
+	float: left;
+
+
+}
+
+.health1 div a {
+	display: block;
+	margin-top: 15px;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: #373D39;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 12pt;
+}
+
+.health1 div a:hover {
+	display: block;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	background-color: white;
+	color: #c8c09e;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 12pt;
+}
+
+
+
+
+/*Clients*/
+
+.client_container {
+	width: 510px;
+	height: 175px;
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+.client_container h1 {
+	text-align: left;
+	padding-top: 40px;
+	font-family: 'Bitter', sans-serif;
+	font-weight: 400;
+	font-size: 17pt;
+	padding-bottom: 10px;
+
+}
+
+.clients {
+	width: 150px;
+	float: left;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+
+.clients h2 {
+	font-family: 'Bitter', serif;
+	font-weight: 600;
+	font-size: 10pt;
+	text-align: left;
+	margin-bottom: 5px;
+}
+
+.clients li {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 10pt;
+	line-height: 1.75;
+	text-align: left;
+}
+
+/*footer*/
+footer {
+	min-width: 990px;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	margin-top: 100px;
+	display: block;
+	height: 392px;
+	position: absolute;
+}
+
+.footer_background {
+	background-color: #2f3031;
+	width: 100%;
+	height: 150;
+}
+
+.city {
+	background-position: center center;
+	background-image: url(../Images/skyline.png);
+	width: 100%;
+	height: 242px;
+}
+
+footer p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 10pt;
+	padding-left: 50px;
+	margin-top: 100px;
+	color: white;
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+
