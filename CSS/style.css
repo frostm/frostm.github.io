@@ -1,35 +1,44 @@
 h1 {
 	font-family: 'Arvo';
-	color: #108979;
-	padding: 50 0 0 0;
-	font-size: 36pt;
+	font-weight: 700;
+	color: white;
+	padding: 45 0 0 0;
+	font-size: 28pt;
+	text-shadow: 2px 2px 1px #397b65;
 }
 
 p {
-	font-family: sans-serif;
+	margin: 0 auto;
+	font-family: 'Cabin', sans-serif;
+	color: #373D39;
+	font-size: 12pt;
+	line-height: 1.5;
+	font-weight: 400;
+	width: 400;
 }
 
 a {
-	font-family: sans-serif;
+	font-family: 'Cabin',sans-serif;
+	font-weight: 400px;
 	font-size: 10pt;
-	color: white;
+	color: #373D39;
 	padding: 10px;
 	margin: 10px;
 	text-decoration: none;
-	background-color: #1FC4AE;
+	background-color: #D8CEA4;
 	width: 200px;
 	text-align: center;
 }
 
 a:hover {
-	font-family: sans-serif;
+	font-family: 'Cabin',sans-serif;
+	font-weight: 400px;
 	font-size: 10pt;
-	color: #1FC4AE;
+	color: #108979;
 	padding: 10px;
 	margin: 10px;
 	text-decoration: none;
 	background-color: white;
-	font-weight: bold;
 	text-align: center;
 
 }
@@ -48,4 +57,25 @@ body {
 	margin: 0 auto;
 	text-align: center;
 
+}
+
+h2 {
+	margin: 0 auto;
+	font-family: 'Arvo';
+	letter-spacing: 1px;
+	font-weight: 400;
+	color: white;
+	font-size: 14pt;
+	padding-top: 45px;
+	padding-bottom: 15px;
+	width: 350px;
+	text-shadow: 2px 2px 1px #397b65;
+}
+
+.content {
+	margin: 0 auto;
+	margin-top: 100px;
+	width: 500px;
+	height: 575px;
+	background-color: #67BFA2;
 }
