@@ -4,7 +4,7 @@ h1 {
 	color: white;
 	width: 400px;
 	margin: 0 auto;
-	padding: 80 0 15 0;
+	padding: 100 0 15 0;
 	font-size: 28pt;
 	text-shadow: 2px 2px 1px #1e2840;
 }
@@ -16,7 +16,7 @@ p {
 	font-size: 12pt;
 	line-height: 1.5;
 	font-weight: 400;
-	width: 315;
+	width: 375;
 }
 
 .buttons a {
@@ -30,6 +30,8 @@ p {
 	background-color: #D8CEA4;
 	width: 200px;
 	text-align: center;
+	display: block;
+	margin: 10 auto;
 }
 
 .buttons a:hover {
@@ -42,6 +44,9 @@ p {
 	text-decoration: none;
 	background-color: white;
 	text-align: center;
+	display: block;
+	margin: 10 auto;
+
 
 }
 
@@ -82,18 +87,17 @@ h2 {
 	font-weight: 400;
 	color: white;
 	font-size: 14pt;
-	padding-top: 45px;
-	padding-bottom: 15px;
+	padding-top: 35px;
 	width: 350px;
 	text-shadow: 2px 2px 1px #1e2840;
 }
 
 .content {
 	margin: 0 auto;
-	margin-top: 50px;
+	margin-top: 75px;
 	width: 550px;
 	height: 550px;
 	background-color: #475066;
-	opacity: .95;
+	opacity: .90;
 	border-radius: 550px;
 }
