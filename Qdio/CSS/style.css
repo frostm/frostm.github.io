@@ -1,0 +1,118 @@
+/*header*/
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right:0;
+	padding: 10px;
+	background-color: white;
+	border-bottom: 2px solid black;
+}
+
+#logo {
+	float: left;
+}
+
+.headerlinks {
+	float: right;
+	font-family: sans-serif;
+	padding-top: 10px;
+}
+
+#home {
+	float: left;
+	padding: 10px;
+	background-color: #1FC4AE;
+	color: white;
+	text-decoration: none;
+	font-family: sans-serif;
+	margin-right: 10px;
+}
+
+#home:hover {
+	background-color: white;
+	color: #1FC4AE;
+	font-weight: bold;
+}
+
+.clear {
+	clear: both;
+}
+
+/* Main Body */
+
+body {
+	background-image: url('../Images/triangular.png')
+}
+
+.container {
+	width: 1200px;
+}
+
+.sidenav {
+	position: fixed;
+	width: 200px;
+	height: 100%;
+	padding: 10px;
+	left: 0;
+	top: 58px;
+	background: rgba(0,0,0,.5);
+}
+
+h1 {
+	font-family: sans-serif;
+	font-size: 12pt;
+	line-height: 150%;
+}
+
+h2 {
+	font-size: 10pt;
+	padding: 10px;
+	color: #b6b6b6;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+h3 {
+	font-family: sans-serif;
+	font-size: 10pt;
+	line-height: 150%;
+}
+
+li {
+	font-size: 12pt;
+	padding: 5px;
+	font-family: sans-serif;
+	margin-left: 3px;
+}
+
+li:hover {
+	background-color: white;
+	color: black;
+}
+
+li a {
+	text-decoration: none;
+	color: #2391cf;
+}
+
+a {
+	text-decoration: none;
+}
+
+.content{
+	width: 1000px;
+	margin: 80px 0 25px 250px;
+}
+
+.tracks {
+	float: left;
+	display: inline;
+	padding: 25px;
+	font-family: sans-serif;
+}
+
+.tracks:hover {
+	background-color: white;
+}
