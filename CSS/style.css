@@ -1,20 +1,22 @@
 h1 {
 	font-family: 'Arvo';
-	font-weight: 700;
+	font-weight: 400;
 	color: white;
-	padding: 45 0 0 0;
+	width: 400px;
+	margin: 0 auto;
+	padding: 80 0 15 0;
 	font-size: 28pt;
-	text-shadow: 2px 2px 1px #397b65;
+	text-shadow: 2px 2px 1px #1e2840;
 }
 
 p {
 	margin: 0 auto;
 	font-family: 'Cabin', sans-serif;
-	color: #373D39;
+	color: white;
 	font-size: 12pt;
 	line-height: 1.5;
 	font-weight: 400;
-	width: 375;
+	width: 315;
 }
 
 .buttons a {
@@ -34,7 +36,7 @@ p {
 	font-family: 'Cabin',sans-serif;
 	font-weight: 400px;
 	font-size: 10pt;
-	color: #108979;
+	color: #557382;
 	padding: 10px;
 	margin: 10px;
 	text-decoration: none;
@@ -45,32 +47,23 @@ p {
 
 .intro a {
 	font-family: 'Cabin', sans-serif;
-	color: white;
-	font-size: 12pt;
-	line-height: 1.5;
-	font-weight: 500;
-	text-decoration: none;
-	text-shadow: 1px 1px 1px #397b65
-}
-
-.intro a:hover {
-	font-family: 'Cabin', sans-serif;
 	color: #D8CEA4;
 	font-size: 12pt;
 	line-height: 1.5;
 	font-weight: 500;
 	text-decoration: none;
+	text-shadow: 1px 1px 1px #1e2840;
 }
 
-.hi {
-	width: 1200px;
-	height: 200px;
-	background-color: gray;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-
+.intro a:hover {
+	font-family: 'Cabin', sans-serif;
+	color: white;
+	font-size: 12pt;
+	line-height: 1.5;
+	font-weight: 500;
+	text-decoration: none;
 }
+
 
 body {
 	margin: 0 auto;
@@ -78,6 +71,7 @@ body {
 	background-image: url(../Images/background.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
+	background-color: #222943;
 
 }
 
@@ -91,14 +85,15 @@ h2 {
 	padding-top: 45px;
 	padding-bottom: 15px;
 	width: 350px;
-	text-shadow: 2px 2px 1px #397b65;
+	text-shadow: 2px 2px 1px #1e2840;
 }
 
 .content {
 	margin: 0 auto;
-	margin-top: 100px;
-	width: 500px;
-	height: 400px;
-	background-color: #67BFA2;
-	opacity: .90;
+	margin-top: 50px;
+	width: 550px;
+	height: 550px;
+	background-color: #475066;
+	opacity: .95;
+	border-radius: 550px;
 }
