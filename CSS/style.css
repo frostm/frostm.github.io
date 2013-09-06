@@ -17,6 +17,7 @@ p {
 	line-height: 1.5;
 	font-weight: 400;
 	width: 375;
+	text-shadow: 1px 1px 1px #1e2840;
 }
 
 .buttons a {
