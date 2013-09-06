@@ -14,10 +14,10 @@ p {
 	font-size: 12pt;
 	line-height: 1.5;
 	font-weight: 400;
-	width: 400;
+	width: 375;
 }
 
-a {
+.buttons a {
 	font-family: 'Cabin',sans-serif;
 	font-weight: 400px;
 	font-size: 10pt;
@@ -30,7 +30,7 @@ a {
 	text-align: center;
 }
 
-a:hover {
+.buttons a:hover {
 	font-family: 'Cabin',sans-serif;
 	font-weight: 400px;
 	font-size: 10pt;
@@ -41,6 +41,25 @@ a:hover {
 	background-color: white;
 	text-align: center;
 
+}
+
+.intro a {
+	font-family: 'Cabin', sans-serif;
+	color: white;
+	font-size: 12pt;
+	line-height: 1.5;
+	font-weight: 500;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #397b65
+}
+
+.intro a:hover {
+	font-family: 'Cabin', sans-serif;
+	color: #D8CEA4;
+	font-size: 12pt;
+	line-height: 1.5;
+	font-weight: 500;
+	text-decoration: none;
 }
 
 .hi {
@@ -56,6 +75,9 @@ a:hover {
 body {
 	margin: 0 auto;
 	text-align: center;
+	background-image: url(../Images/background.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
 
 }
 
@@ -76,6 +98,7 @@ h2 {
 	margin: 0 auto;
 	margin-top: 100px;
 	width: 500px;
-	height: 575px;
+	height: 400px;
 	background-color: #67BFA2;
+	opacity: .90;
 }
