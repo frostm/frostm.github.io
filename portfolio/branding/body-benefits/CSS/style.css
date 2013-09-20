@@ -1,4 +1,4 @@
-/*Sweet Celebrations*/
+/*Wedding Celebrations*/
 
 html {
   position: relative;
@@ -83,7 +83,45 @@ body {
 	padding-top: 5px;
 }
 
+/*Coming Soon*/
 
+.Coming_Soon {
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.Coming_Soon h1 {
+	text-align: center;
+	padding-top: 150px;
+	font-family: 'Bitter', sans-serif;
+	font-weight: 400;
+	font-size: 28pt;
+	padding-bottom: 10px;
+	color: #373D39;
+
+}
+
+.Coming_Soon p {
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+	width: 300px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 10pt;
+	line-height: 14pt;
+	color: #373D39;
+}
+
+.Coming_Soon a {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18;
+	font-weight: 400;
+	color: #67BFA2;
+	text-align: center;
+
+}
 
 
 
