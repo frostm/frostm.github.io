@@ -244,7 +244,7 @@ body {
 	width: 100%;
 	height: 600px;
 	margin: 0 auto;
-	background-color: #c8c09e;
+	background-color: #EDE6C3;
 	border-bottom: 2px solid #373D39;
 }
 
@@ -258,8 +258,8 @@ body {
 	font-size: 28pt;
 	padding-top: 60px;
 	padding-bottom: 10px;
-	color: white;
-	text-shadow: 2px 2px 1px #7e7241;
+	color: #373D39;
+	text-shadow: 2px 2px 1px #ffffff;
 
 }
 
@@ -317,6 +317,77 @@ body {
 	font-size: 12pt;
 }
 
+/*Freelance*/
+
+.Freelance {
+	width: 100%;
+	height: 600px;
+	border-bottom: 2px #373D39;
+}
+
+.Freelance h1 {
+	text-align: center;
+	padding-top: 60px;
+	font-family: 'Bitter', sans-serif;
+	font-weight: 400;
+	font-size: 28pt;
+	padding-bottom: 10px;
+	color: #373D39;
+	text-shadow: 2px 2px 1px #d1d1d1;
+
+}
+
+.Freelance p {
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+	width: 300px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 10pt;
+	line-height: 14pt;
+	color: #373D39;
+}
+
+.freelance1 {
+	width: 840px;
+	margin: 0 auto;
+}
+
+
+.freelance1 div {
+	width: 230px;
+	height: 250px;
+	padding: 25px;
+	margin-top: 30px;
+	float: left;
+
+
+}
+
+.freelance1 div a {
+	display: block;
+	margin-top: 15px;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: #373D39;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 12pt;
+}
+
+.freelance1 div a:hover {
+	display: block;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	background-color: white;
+	color: #373D39;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 12pt;
+}
 
 
 
