@@ -86,7 +86,7 @@ body {
 /*Coming Soon*/
 
 .Coming_Soon {
-	width: 500px;
+	width: 1000px;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -106,11 +106,11 @@ body {
 	margin: 0 auto;
 	text-align: center;
 	padding: 10px;
-	width: 300px;
+	width: 500px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 400;
-	font-size: 10pt;
-	line-height: 14pt;
+	font-size: 14pt;
+	line-height: 20pt;
 	color: #373D39;
 }
 

@@ -2,10 +2,114 @@
 
 <html>
 <head>
-	<title>Sweet Celebrations</title>
+	<title>Body Benefits</title>
 	<link rel="stylesheet" type="text/css" href="CSS/reset.css">
 	<link rel="stylesheet" type="text/css" href="CSS/style.css">
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic,700italic|Bitter:400,700' rel='stylesheet' type='text/css'>
+
+	   <meta charset="utf-8">
+  <title>SlidesJS Basic Code Example</title>
+  <meta name="description" content="SlidesJS is a simple slideshow plugin for jQuery. Packed with a useful set of features to help novice and advanced developers alike create elegant and user-friendly slideshows.">
+  <meta name="author" content="Nathan Searles">
+
+  <!-- SlidesJS Required (if responsive): Sets the page width to the device width. -->
+  <meta name="viewport" content="width=device-width">
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: These styles are required if you'd like a responsive slideshow -->
+  <style>
+    /* Prevent the slideshow from flashing on load */
+    #slides {
+      display: none
+    }
+
+    /* Center the slideshow */
+    .container {
+      margin: 0 auto
+    }
+
+    /* Show active item in the pagination */
+    .slidesjs-pagination .active {
+      color:red;
+    }
+
+    /* Media quires for a responsive layout */
+
+    /* For tablets & smart phones */
+    @media (max-width: 767px) {
+      body {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smartphones */
+    @media (max-width: 480px) {
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smaller displays like laptops */
+    @media (min-width: 768px) and (max-width: 979px) {
+      .container {
+        width: 724px
+      }
+    }
+
+    /* For larger displays */
+    @media (min-width: 1200px) {
+      .container {
+        width: 1170px
+      }
+    }
+  </style>
+  <!-- SlidesJS Required: -->
+</head>
+<body>
+
+  <!-- SlidesJS Required: Start Slides -->
+  <!-- The container is used to define the width of the slideshow -->
+  <div class="container">
+    <div id="slides">
+      <img src="Images/Celiac1.jpg" alt="Photo by: Missy S Link: http://www.flickr.com/photos/listenmissy/5087404401/">
+      <img src="Images/Celiac1.jpg" alt="Photo by: Daniel Parks Link: http://www.flickr.com/photos/parksdh/5227623068/">
+    </div>
+  </div>
+  <!-- End SlidesJS Required: Start Slides -->
+
+  <!-- SlidesJS Required: Link to jQuery -->
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Link to jquery.slides.js -->
+  <script src="js/jquery.slides.min.js"></script>
+  <!-- End SlidesJS Required -->
+
+  <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+  <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 940,
+        height: 528,
+        navigation: {
+          effect: "fade"
+        },
+        pagination: {
+          effect: "fade"
+        },
+        effect: {
+          fade: {
+            speed: 400
+          }
+        }
+      });
+    });
+  </script>
+
 </head>
 
 <body>
@@ -25,8 +129,11 @@
 <div class='clear'></div>
 
 	<section class='Coming_Soon'>
-			<h1>Coming Soon</h1>
-			<p>Check back soon for updated projects.</p>
+			<h1>Body Benefits</h1>
+			<p>Even though Body Benefits is America's #1 bath accessory brand, they've previously put little effort behind growing their brand image. I helped develop a fully responsive, socially driven site to help grow this image in the minds of consumers </p>
+			<p>Role: Lead Designer</p>
+			
+
 			<a href="../../home.html">Home</a>
 	</section>
 
