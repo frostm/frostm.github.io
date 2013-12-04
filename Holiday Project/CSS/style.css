@@ -1,0 +1,127 @@
+/* General */
+
+h1 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 20pt;
+	color: #125e5f;
+}
+
+p {
+	font-family: 'Raleway';
+	font-size: 14pt;
+	line-height: 20pt;
+}
+
+a {
+	font-family: 'Raleway';
+	font-size: 12pt;
+	line-height: 20pt;
+	color: #125e5f;
+	margin-left: 10px;
+}
+
+/* Intro Section */
+
+.Intro {
+	text-align: center;
+	width: 75%;
+	margin: 0 auto;
+	height: auto;
+	padding: 45px;
+}
+
+/* URL Share Links */
+
+.SectionTwo {
+	width: auto;
+	text-align: center;
+	background-color: #e5ddae;
+	padding: 45px;
+}
+
+.SectionTwo a {
+	padding: 10px;
+	background-color: #125e5f;
+	color: white;
+	text-decoration: none;
+	margin: 10px;
+}
+
+
+.SectionTwo h1 {
+	font-size: 16pt;
+	margin-bottom: 20px;
+	margin-top: -10px;
+}
+
+
+/* Facebook Share Image Section */
+
+.SectionThree {
+	width: auto;
+	text-align: center;
+	background-color: #87c081;
+	padding-top: 25px;
+	float: left;
+}
+
+.FacebookIntro {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.FacebookIntro p {
+	font-size: 12pt;
+	color: white;
+	line-height: 16pt;
+}
+
+.FacebookIntro h1 {
+	font-size: 16pt;
+	margin-bottom: -10px;
+}
+
+.Images {
+	padding: 15px;
+}
+
+.Images img {
+	padding: 10px;
+}
+
+/* Pinterest Image Section */
+
+.SectionFour {
+	width: 100%;
+	text-align: center;
+	background-color: #00aaaa;
+	padding-top: 25px;
+	float: left;
+}
+
+.PinterestIntro {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.PinterestIntro p {
+	font-size: 12pt;
+	color: white;
+	line-height: 16pt;
+}
+
+.PinterstIntro h1 {
+	font-size: 16pt;
+	margin-bottom: -10px;
+}
+
+
+/* General */
+
+.clear {
+	clear: both;
+}
+
+	
