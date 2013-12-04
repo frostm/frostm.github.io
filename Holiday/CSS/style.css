@@ -112,11 +112,14 @@ a {
 	line-height: 16pt;
 }
 
-.PinterstIntro h1 {
+.PinterestIntro h1 {
 	font-size: 16pt;
 	margin-bottom: -10px;
 }
 
+.PinterestIntro img{
+	box-shadow: 2px 2px 2px;
+}
 
 /* General */
 
