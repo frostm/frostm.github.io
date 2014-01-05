@@ -80,8 +80,8 @@ body {
 .Branding_Projects {
 	width: 100%;
 	height: 600px;
+	padding-top: 100px;
 	background-color: #373D39;
-	margin-top: 76px;
 	border-bottom: 2px #373D39;
 }
 
@@ -99,6 +99,7 @@ body {
 
 .Branding_Projects p {
 	margin: 0 auto;
+	height: auto;
 	text-align: center;
 	padding: 10px;
 	width: 300px;
@@ -111,6 +112,7 @@ body {
 
 .brand1 {
 	width: 840px;
+	text-align: center;
 	margin: 0 auto;
 }
 
@@ -121,31 +123,29 @@ body {
 	padding: 25px;
 	margin-top: 30px;
 	float: left;
+}
 
-
+.brand1 img {
+	margin-bottom: 10px;
 }
 
 .brand1 div a {
-	display: block;
-	margin-top: 15px;
 	padding: 10px;
 	text-align: center;
 	text-decoration: none;
 	color: white;
 	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 12pt;
 }
 
 .brand1 div a:hover {
-	display: block;
-	padding: 10px;
 	text-align: center;
-	text-decoration: none;
-	background-color: white;
-	color: #373D39;
+	padding: 10px;
+	text-decoration: underline;
+	color: white;
 	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 12pt;
 }
 
