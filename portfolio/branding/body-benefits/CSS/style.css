@@ -1,15 +1,5 @@
 /*Body Benefits*/
 
-html {
-  position: relative;
-  min-height: 100%;
-}
-body {
-	min-width: 990px;
-    margin: 0 0 392px; /* the bottom margin should = the footer height */
-}
-
-
 /* Header */
 .header {
 	position: fixed;
@@ -75,12 +65,25 @@ body {
 	line-height: 16pt;
 }
 
+/*Everything*/
+
+.Everything {
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+}
 
 /*Project Photos*/
 
 .Photos {
 	float: left;
 	margin-top: 100px;
+	height: auto;
+
+}
+
+.Photos img {
+	margin-bottom: 25px;
 }
 
 /*Project Description*/
@@ -88,6 +91,7 @@ body {
 .Project {
 	float: left;
 	width: 350px;
+ 	height: auto;
 	margin-top: 100px;
 	padding: 50px;
 }
@@ -118,11 +122,6 @@ body {
 	line-height: 14pt;
 	color: #373D39;
 }
-
-
-
-
-
 
 .clear {
 	clear: both;
