@@ -75,6 +75,10 @@ body {
 	line-height: 16pt;
 }
 
+nav li {
+	display: inline;
+}
+
 /*Branding Projects*/
 
 .Branding_Projects {
