@@ -13,11 +13,11 @@ body {
 /* Header */
 .header {
 	position: fixed;
+	height: 75px;
 	width: 100%;
 	height: auto;
 	background-color: white;
 	opacity: .95;
-	border-bottom: 2px solid #373D39;
 	padding: 15px 20px 15px 20px;
 	top: 0;
 }
@@ -79,20 +79,52 @@ nav li {
 	display: inline;
 }
 
-/*Branding Projects*/
 
-.Branding_Projects {
+/* Backgrounds*/
+
+.Brand {
 	width: 100%;
-	height: 600px;
-	padding-top: 100px;
-	background-color: #373D39;
-	border-bottom: 2px #373D39;
+	height: 475px;
+	padding-top: 75px;
 	margin: 0 auto;
+	background-color: #373D39;
 }
 
-.Branding_Projects h1 {
+.Social {
+	width: 100%;
+	height: 475px;
+	padding-top: 75px;
+	margin: 0 auto;
+	background-color: #67BFA2;
+}
+
+.Health {
+	width: 100%;
+	height: 475px;
+	padding-top: 75px;
+	margin: 0 auto;
+	background-color: #EDE6C3;
+}
+
+.Freelance {
+	width: 100%;
+	height: 475px;
+	padding-top: 75px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+
+
+/* Projects*/
+
+.Projects{
+	position: relative;
+	top: 75px;
+}
+
+.Projects h1 {
 	text-align: center;
-	padding-top: 60px;
 	font-family: 'Bitter', sans-serif;
 	font-weight: 400;
 	font-size: 28pt;
@@ -102,225 +134,40 @@ nav li {
 
 }
 
-.Branding_Projects p {
-	margin: 0 auto;
-	height: auto;
+.Projects .Health h1 {
 	text-align: center;
-	padding: 10px;
-	width: 300px;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 400;
-	font-size: 10pt;
-	line-height: 14pt;
-	color: white;
-}
-
-.brand1 {
-	width: 840px;
-	text-align: center;
-	margin: 0 auto;
-}
-
-
-.brand1 div {
-	width: 230px;
-	height: 250px;
-	padding: 25px;
-	margin-top: 30px;
-	float: left;
-}
-
-.brand1 img {
-	margin-bottom: 20px;
-}
-
-.brand1 div a {
-	text-align: center;
-	text-decoration: none;
-	color: white;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 300;
-	font-size: 12pt;
-}
-
-.brand1 div a:hover {
-	text-align: center;
-	text-decoration: underline;
-	color: white;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 400;
-	font-size: 12pt;
-}
-
-
-
-/*Social Projects*/
-.Social_Projects {
-	width: 100%;
-	height: 600px;
-	background-color: #67BFA2;
-	border-bottom: 2px solid #373D39;
-}
-
-.Social_Projects h1 {
-	text-align: center;
-	padding-top: 60px;
-	font-family: 'Bitter', sans-serif;
-	font-weight: 400;
-	font-size: 28pt;
-	padding-bottom: 10px;
-	color: white;
-	text-shadow: 2px 2px 1px #397b65;
-
-}
-
-.Social_Projects p {
-	margin: 0 auto;
-	height: auto;
-	text-align: center;
-	padding: 10px;
-	width: 300px;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 400;
-	font-size: 10pt;
-	line-height: 14pt;
-	color: #373D39;
-}
-
-
-
-.social1 {
-	width: 840px;
-	text-align: center;
-	margin: 0 auto;
-}
-
-
-.social1 div {
-	width: 230px;
-	height: 250px;
-	padding: 25px;
-	margin-top: 30px;
-	float: left;
-}
-
-.social1 img {
-	margin-bottom: 20px;
-}
-
-.social1 div a {
-	text-align: center;
-	text-decoration: none;
-	color: #373D39;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 300;
-	font-size: 12pt;
-
-}
-
-.social1 div a:hover {
-	text-align: center;
-	text-decoration: underline;
-	color: #373D39;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 400;
-	font-size: 12pt;
-}
-
-/*Healthcare*/
-
-.Health_Projects {
-	width: 100%;
-	height: 600px;
-	background-color: #EDE6C3;
-	border-bottom: 2px solid #373D39;
-}
-
-.Health_Projects h1 {
-	text-align: center;
-	padding-top: 60px;
 	font-family: 'Bitter', sans-serif;
 	font-weight: 400;
 	font-size: 28pt;
 	padding-bottom: 10px;
 	color: #373D39;
-	text-shadow: 2px 2px 1px #ffffff;
-
+	text-shadow: 2px 2px 1px white;
 }
 
-.Health_Projects p {
-	margin: 0 auto;
-	height: auto;
+.Projects .Freelance h1 {
 	text-align: center;
-	padding: 10px;
-	width: 300px;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 400;
-	font-size: 10pt;
-	line-height: 14pt;
-	color: #373D39;
-}
-
-
-
-.health1 {
-	width: 840px;
-	text-align: center;
-	margin: 0 auto;
-}
-
-
-.health1 div {
-	width: 230px;
-	height: 250px;
-	padding: 25px;
-	margin-top: 30px;
-	float: left;
-}
-
-.health1 img {
-	margin-bottom: 20px;
-}
-
-.health1 div a {
-	text-align: center;
-	text-decoration: none;
-	color: #373D39;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 300;
-	font-size: 12pt;	
-}
-
-.health1 div a:hover {
-	text-align: center;
-	text-decoration: underline;
-	color: #373D39;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 400;
-	font-size: 12pt;
-}
-
-/*Freelance*/
-
-.Freelance {
-	width: 100%;
-	height: 600px;
-	border-bottom: 2px #373D39;
-}
-
-.Freelance h1 {
-	text-align: center;
-	padding-top: 60px;
 	font-family: 'Bitter', sans-serif;
 	font-weight: 400;
 	font-size: 28pt;
 	padding-bottom: 10px;
 	color: #373D39;
-	text-shadow: 2px 2px 1px #d1d1d1;
-
+	text-shadow: 2px 2px 1px white;
 }
 
-.Freelance p {
+.Projects p {
+	margin: 0 auto;
+	height: auto;
+	text-align: center;
+	padding: 10px;
+	width: 300px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 10pt;
+	line-height: 14pt;
+	color: white;
+}
+
+.Projects .Health p {
 	margin: 0 auto;
 	height: auto;
 	text-align: center;
@@ -333,41 +180,36 @@ nav li {
 	color: #373D39;
 }
 
-.freelance1 {
-	width: 840px;
+.Projects .Freelance p {
+	margin: 0 auto;
+	height: auto;
+	text-align: center;
+	padding: 10px;
+	width: 300px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 10pt;
+	line-height: 14pt;
+	color: #373D39;
+}
+
+.project-links {
+	width: 100%;
 	text-align: center;
 	margin: 0 auto;
 }
 
-
-.freelance1 div {
+.project-links div{
 	width: 230px;
-	height: 250px;
-	padding: 25px;
-	margin-top: 30px;
-	float: left;
+	height: auto;
+	margin-right: 25px;
+	margin-left: 25px;
+	display: inline;
 }
 
-.freelance1 img {
-	margin-bottom: 20px;
-}
-
-.freelance1 div a {
-	text-align: center;
-	text-decoration: none;
-	color: #373D39;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 300;
-	font-size: 12pt;
-}
-
-.freelance1 div a:hover {
-	text-align: center;
-	text-decoration: underline;
-	color: #373D39;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 400;
-	font-size: 12pt;
+.project-links img {
+	margin-bottom: 15px;
+	margin-top: 15px;
 }
 
 
