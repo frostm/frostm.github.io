@@ -6,103 +6,69 @@ html {
   background-size: cover;
 }
 
+.content {
+	margin: 0 auto;
+	margin-top: 75px;
+	width: 500px;
+	height: 500px;
+	background-color: #475066;
+	opacity: .90;
+	border-radius: 500px;
+}
+
+.wrapper {
+	position: relative;
+	top: 98px;
+}
+
+body {
+	margin: 0 auto;
+	font-family: 'Cabin', sans-serif;
+	color: white;
+	font-size: 12pt;
+	line-height: 1.5;
+	font-weight: 400;
+	text-shadow: 1px 1px 1px #1e2840;
+	margin: 0 auto;
+	text-align: center;
+}
+
 h1 {
 	font-family: 'Arvo';
 	font-weight: 400;
 	color: white;
 	width: 400px;
 	margin: 0 auto;
-	padding: 100 0 15 0;
 	font-size: 28pt;
+	line-height: 44px;
 	text-shadow: 2px 2px 1px #1e2840;
 }
 
 p {
+	width: 400px;
 	margin: 0 auto;
-	font-family: 'Cabin', sans-serif;
-	color: white;
-	font-size: 12pt;
-	line-height: 1.5;
-	font-weight: 400;
-	width: 375;
-	text-shadow: 1px 1px 1px #1e2840;
+	padding-top: 25px;
+}
+
+ul, menu, dir {
+-webkit-padding-start: 0px;
+}
+
+
+.buttons li {
+	margin: 0 auto;
+	margin-top: 40px;
+	list-style-type: none;
 }
 
 .buttons a {
-	font-family: 'Cabin',sans-serif;
-	font-weight: 400px;
-	font-size: 10pt;
-	color: #373D39;
-	padding: 10px;
-	margin: 10px;
-	margin-top: 35px;
-	text-decoration: none;
 	background-color: #D8CEA4;
-	width: 200px;
-	text-align: center;
-	display: block;
-	margin: 10 auto;
+	color: #475066;
+	text-decoration: none;
+	padding: 15px;
+	text-shadow: none;
 }
 
 .buttons a:hover {
-	font-family: 'Cabin',sans-serif;
-	font-weight: 400px;
-	font-size: 10pt;
-	color: #557382;
-	padding: 10px;
-	margin: 10px;
-	text-decoration: none;
 	background-color: white;
-	text-align: center;
-	display: block;
-	margin: 10 auto;
-
-
-}
-
-.intro a {
-	font-family: 'Cabin', sans-serif;
-	color: #D8CEA4;
-	font-size: 12pt;
-	line-height: 1.5;
-	font-weight: 500;
-	text-decoration: none;
-	text-shadow: 1px 1px 1px #1e2840;
-}
-
-.intro a:hover {
-	font-family: 'Cabin', sans-serif;
-	color: white;
-	font-size: 12pt;
-	line-height: 1.5;
-	font-weight: 500;
-	text-decoration: none;
-}
-
-
-body {
-	margin: 0 auto;
-	text-align: center;
-}
-
-h2 {
-	margin: 0 auto;
-	font-family: 'Arvo';
-	letter-spacing: 1px;
-	font-weight: 400;
-	color: white;
-	font-size: 14pt;
-	padding-top: 35px;
-	width: 350px;
-	text-shadow: 2px 2px 1px #1e2840;
-}
-
-.content {
-	margin: 0 auto;
-	margin-top: 75px;
-	width: 550px;
-	height: 550px;
-	background-color: #475066;
-	opacity: .90;
-	border-radius: 550px;
 }
