@@ -12,13 +12,19 @@
 }
 
 
-.header nav{
-	float: right;	
+.header nav {
+	float: right;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
 	font-size: 12pt;
 	padding-top: 23px;
-	padding-right: 15px;
+	padding-right: 25px;
+	list-style: none;
+}
+
+li {
+	list-style: none;
+	display: inline;
 }
 
 .header a {
@@ -68,7 +74,7 @@
 /*Project Description*/
 
 .Project {
-	width: 600px;
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 	position: relative;
@@ -92,6 +98,8 @@
 }
 
 .Project p {
+	width: 600px;
+	margin: 0 auto;
 	margin-top: 10px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 400;
@@ -107,7 +115,6 @@
 /*Project Photos*/
 
 .Photos {
-	width: 1000;
 	text-align: center;
 	margin: 0 auto;
 	position: relative;
@@ -117,7 +124,6 @@
 
 .Photos img {
 	margin-bottom: 40px;
-	box-shadow: 0px 0px 10px rgba(55, 61, 57, 0.25);
 }
 
 .Photos p {
@@ -127,4 +133,12 @@
 	font-size: 12pt;
 	padding-bottom: 10px;
 	color: #373D39;
+}
+
+/* Contact Text */
+
+section .Project p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 24px;
+	line-height: 26px;
 }
