@@ -19,12 +19,15 @@
 	font-size: 12pt;
 	padding-top: 23px;
 	padding-right: 25px;
+<<<<<<< HEAD
 	list-style: none;
 }
 
 li {
 	list-style: none;
 	display: inline;
+=======
+>>>>>>> FETCH_HEAD
 }
 
 .header a {
@@ -134,6 +137,7 @@ li {
 	padding-bottom: 10px;
 	color: #373D39;
 }
+<<<<<<< HEAD
 
 /* Contact Text */
 
@@ -142,3 +146,5 @@ section .Project p {
 	font-size: 24px;
 	line-height: 26px;
 }
+=======
+>>>>>>> FETCH_HEAD
