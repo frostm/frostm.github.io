@@ -1,0 +1,217 @@
+/* styling */
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 12pt;
+	line-height: 16pt;
+	color: #373D39;
+}
+
+a {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 12pt;
+	line-height: 16pt;
+	color: #373D39;
+}
+
+li {
+	list-style: none;
+	display: inline;
+}
+
+/* Header */
+.header {
+	position: fixed;
+	width: 100%;
+	height: auto;
+	background-color: white;
+	opacity: .95;
+	border-bottom: 2px solid #373D39;
+	padding: 15px 20px 15px 20px;
+	z-index: 10;
+}
+
+
+.header nav {
+	float: right;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 12pt;
+	padding-top: 23px;
+	padding-right: 25px;
+	list-style: none;
+}
+
+
+.header a {
+	text-decoration: none;
+	color: #67BFA2;
+	padding-right: 20px;
+}
+
+.header a:hover {
+	text-decoration: underline;
+	color: #67BFA2;
+	padding-right: 20px;
+}
+
+.intro {
+	float: left;
+}
+
+.intro a {
+	float: left;
+	font-family: 'Bitter', sans-serif;
+	font-size: 18;
+	font-weight: 700;
+	text-decoration: none;
+	color: #373D39;
+	line-height: 16pt;
+}
+
+.intro a:hover {
+	color: #67BFA2;
+}
+
+.intro p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 12pt;
+	line-height: 16pt;
+}
+
+/* Content Div */
+
+.content {
+	width: 100%;
+	position: absolute;
+	top: 100px;
+	padding: 25px;
+}
+
+/*Project Description*/
+
+.project {
+	float: left;
+	width: 30%;
+	position: fixed;
+}
+
+.project h1 {
+	font-family: 'Bitter', sans-serif;
+	font-weight: 400;
+	font-size: 24pt;
+	padding-bottom: 5px;
+	color: #373D39;
+}
+
+.project a {
+	text-decoration: none;
+	color: #67BFA2;
+}
+
+.clear {
+	clear: both;
+}
+
+/* gutter */
+
+.gutter {
+	width: 5%;
+}
+
+
+/*Project Photos*/
+
+.photos {
+	float: right;
+	width: 65%;
+
+}
+
+.photos img {
+	width: 90%;
+	height: 90%;
+	margin-bottom: 10px;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 900px) {
+
+	/* Header */
+
+	.header {
+		text-align: center;
+		margin: 0 auto;
+		float: none;
+	}
+
+	.intro a {
+		float: none;
+		position: static;
+	}
+
+	.intro {
+		float: none;
+		position: static;
+	}
+
+	nav {
+		float: none;
+		position: static;
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.content {
+		padding: 0px;
+		top: 150px;
+	}
+
+	/*Project Description*/
+
+	.project {
+		float: none;
+		position: static;
+		width: 600px;
+		padding-bottom: 20px;
+		margin: 0 auto;
+	}
+
+
+	/* gutter */
+
+	.gutter {
+		width: 0%;
+	}
+
+
+	/*Project Photos*/
+
+	.photos {
+		float: none;
+		position: static;
+		width: 100%;
+		text-align: center;
+
+	}
+
+	.photos img {
+		margin: 0 auto;
+		width: 90%;
+		height: 90%;
+		margin-bottom: 10px;
+	}
+}
+
+
+
+
+
+
+
+
