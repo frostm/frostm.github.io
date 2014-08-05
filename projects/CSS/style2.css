@@ -143,6 +143,11 @@ li {
 
 	/* Header */
 
+	section .header {
+		max-width: 100%;
+		padding: 0px;
+	}
+
 	.header {
 		text-align: center;
 		margin: 0 auto;
@@ -151,7 +156,7 @@ li {
 		position: absolute;
 	}
 
-	.intro a {
+	.header .intro a {
 		float: none;
 		position: static;
 		padding: 0;
@@ -159,18 +164,18 @@ li {
 		position: relative;
 	}
 
-	.intro a:hover {
+	.header .intro a:hover {
 		padding: 0;
 	}
 
-	.intro {
+	.header .intro {
 		float: none;
 		margin: 0 auto;
 		width: 90%;
 		position: relative;
 	}
 
-	nav {
+	.header nav {
 		float: none;
 		width: 90%;
 		padding-top: none;
