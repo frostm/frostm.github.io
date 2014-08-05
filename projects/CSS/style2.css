@@ -147,35 +147,41 @@ li {
 		text-align: center;
 		margin: 0 auto;
 		padding: 10px;
-		padding-left: 10px;
 		float: none;
+		position: absolute;
 	}
 
 	.intro a {
 		float: none;
 		position: static;
+		padding: 0;
+		margin: 0 auto;
+		position: relative;
+	}
+
+	.intro a:hover {
+		padding: 0;
 	}
 
 	.intro {
 		float: none;
-		padding: 0;
 		margin: 0 auto;
 		width: 90%;
-		position: static;
+		position: relative;
 	}
 
 	nav {
 		float: none;
-		position: static;
-		width: 100%;
-		padding: 10px;
+		width: 90%;
+		padding-top: none;
 		margin: 0 auto;
 		text-align: center;
+		position: relative;
 	}
 
 	.content {
 		padding: 0px;
-		top: 150px;
+		top: 175px;
 	}
 
 	/*Project Description*/
