@@ -195,8 +195,9 @@ li {
 		float: none;
 		position: static;
 		width: 75%;
-		padding-bottom: 20px;
+		padding-bottom: 30px;
 		margin: 0 auto;
+		text-align: center;
 	}
 
 
