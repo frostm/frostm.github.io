@@ -141,36 +141,34 @@ li {
 /* Responsive */
 
 @media only screen and (max-width: 900px) {
-
+	
 	/* Header */
 
-	section .header {
-		width: 100%;
-	}
 
 	.header {
 		text-align: center;
-		margin: 0 auto;
-		padding: 15px;
+		max-width: 100%;
+		margin: auto;
+		padding: 15px 0px;
 		float: none;
 		position: absolute;
 	}
 
-	.header .intro a {
+	.intro a {
 		float: none;
 		position: static;
 		padding: 0;
 		margin: 0 auto;
 	}
 
-	.header .intro a:hover {
+	.intro a:hover {
 		padding: 0;
 	}
 
-	.header .intro {
+	.intro {
 		float: none;
 		margin: 0 auto;
-		width: 90%;
+		width: 100%;
 		position: absolute;
 	}
 
