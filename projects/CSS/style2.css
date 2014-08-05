@@ -26,9 +26,8 @@ li {
 	position: fixed;
 	width: 100%;
 	height: auto;
-	background-color: white;
-	opacity: .95;
-	border-bottom: 2px solid #373D39;
+	background-color: #373D39;
+	opacity: .75;
 	padding: 15px 20px 15px 20px;
 	z-index: 10;
 }
@@ -37,9 +36,8 @@ li {
 .header nav {
 	float: right;
 	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 300;
 	font-size: 12pt;
-	padding-top: 23px;
+	padding: 10px;
 	padding-right: 25px;
 	list-style: none;
 }
@@ -47,7 +45,8 @@ li {
 
 .header a {
 	text-decoration: none;
-	color: #67BFA2;
+	font-weight: 100;
+	color: white;
 	padding-right: 20px;
 }
 
@@ -64,22 +63,24 @@ li {
 .intro a {
 	float: left;
 	font-family: 'Bitter', sans-serif;
-	font-size: 18;
-	font-weight: 700;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 10px;
 	text-decoration: none;
-	color: #373D39;
-	line-height: 16pt;
+	color: #67BFA2;
 }
 
 .intro a:hover {
 	color: #67BFA2;
+	text-decoration: none;
 }
 
 .intro p {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
-	font-size: 12pt;
-	line-height: 16pt;
+	font-size: 16px;
+	line-height: 20px;
+	color: white;
 }
 
 /* Content Div */
@@ -87,7 +88,7 @@ li {
 .content {
 	width: 100%;
 	position: absolute;
-	top: 100px;
+	top: 115px;
 	padding: 25px;
 }
 
@@ -144,14 +145,13 @@ li {
 	/* Header */
 
 	section .header {
-		max-width: 100%;
-		padding: 0px;
+		width: 100%;
 	}
 
 	.header {
 		text-align: center;
 		margin: 0 auto;
-		padding: 10px;
+		padding: 15px;
 		float: none;
 		position: absolute;
 	}
@@ -161,7 +161,6 @@ li {
 		position: static;
 		padding: 0;
 		margin: 0 auto;
-		position: relative;
 	}
 
 	.header .intro a:hover {
@@ -172,13 +171,14 @@ li {
 		float: none;
 		margin: 0 auto;
 		width: 90%;
-		position: relative;
+		position: absolute;
 	}
 
 	.header nav {
 		float: none;
 		width: 90%;
-		padding-top: none;
+		padding-bottom: 10px;
+		top: 15px;
 		margin: 0 auto;
 		text-align: center;
 		position: relative;
