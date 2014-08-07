@@ -9,17 +9,37 @@ body {
     margin: 0 0 392px; /* the bottom margin should = the footer height */
 }
 
+p {
+	margin: 0 auto;
+	height: auto;
+	text-align: center;
+	padding: 10px;
+	width: 45%;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Bitter', sans-serif;
+	font-weight: 400;
+	font-size: 28pt;
+	padding-bottom: 10px;
+}
+
 
 /* Header */
 .header {
 	position: fixed;
-	height: 75px;
-	width: 100%;
 	height: auto;
+	width: 100%;
 	background-color: white;
 	opacity: .95;
-	padding: 15px 20px 15px 20px;
+	padding: 10px 20px 10px 20px;
 	top: 0;
+	z-index: 100;
 }
 
 
@@ -73,6 +93,10 @@ body {
 	font-weight: 300;
 	font-size: 12pt;
 	line-height: 16pt;
+	width: 600px;
+	padding-left: 0;
+	padding-top: 0px;
+	text-align: left;
 }
 
 nav li {
@@ -82,34 +106,35 @@ nav li {
 
 /* Backgrounds*/
 
+
 .Brand {
 	width: 100%;
-	height: 475px;
-	padding-top: 75px;
+	height: auto;
+	padding: 50px, 0;
 	margin: 0 auto;
 	background-color: #373D39;
 }
 
 .Social {
 	width: 100%;
-	height: 475px;
-	padding-top: 75px;
+	height: auto;
+	padding: 50px, 0;
 	margin: 0 auto;
 	background-color: #67BFA2;
 }
 
 .Health {
 	width: 100%;
-	height: 475px;
-	padding-top: 75px;
+	height: auto;
+	padding: 50px, 0;
 	margin: 0 auto;
 	background-color: #EDE6C3;
 }
 
 .Freelance {
 	width: 100%;
-	height: 475px;
-	padding-top: 75px;
+	height: auto;
+	padding: 50px, 0;
 	margin: 0 auto;
 	background-color: white;
 }
@@ -124,92 +149,45 @@ nav li {
 }
 
 .Projects h1 {
-	text-align: center;
-	font-family: 'Bitter', sans-serif;
-	font-weight: 400;
-	font-size: 28pt;
-	padding-bottom: 10px;
 	color: white;
 	text-shadow: 2px 2px 1px black;
-
+	padding-top: 75px;
 }
 
 .Projects .Health h1 {
-	text-align: center;
-	font-family: 'Bitter', sans-serif;
-	font-weight: 400;
-	font-size: 28pt;
-	padding-bottom: 10px;
 	color: #373D39;
 	text-shadow: 2px 2px 1px white;
 }
 
 .Projects .Freelance h1 {
-	text-align: center;
-	font-family: 'Bitter', sans-serif;
-	font-weight: 400;
-	font-size: 28pt;
-	padding-bottom: 10px;
 	color: #373D39;
 	text-shadow: 2px 2px 1px white;
 }
 
 .Projects p {
-	margin: 0 auto;
-	height: auto;
-	text-align: center;
-	padding: 10px;
-	width: 300px;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 400;
-	font-size: 10pt;
-	line-height: 14pt;
 	color: white;
 }
 
 .Projects .Health p {
-	margin: 0 auto;
-	height: auto;
-	text-align: center;
-	padding: 10px;
-	width: 300px;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 400;
-	font-size: 10pt;
-	line-height: 14pt;
 	color: #373D39;
 }
 
 .Projects .Freelance p {
-	margin: 0 auto;
-	height: auto;
-	text-align: center;
-	padding: 10px;
-	width: 300px;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 400;
-	font-size: 10pt;
-	line-height: 14pt;
 	color: #373D39;
 }
 
 .project-links {
-	width: 100%;
 	text-align: center;
+	width: 100%;
 	margin: 0 auto;
-}
-
-.project-links div{
-	width: 230px;
 	height: auto;
-	margin-right: 25px;
-	margin-left: 25px;
-	display: inline;
+	padding-bottom: 75px;
+	padding-top: 25px;
+	display: inline-block;
 }
 
-.project-links img {
-	margin-bottom: 15px;
-	margin-top: 15px;
+.project-links a{
+	padding: 10px;
 }
 
 
@@ -284,7 +262,6 @@ footer {
 }
 
 footer p {
-	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
 	font-size: 10pt;
 	padding-left: 50px;
@@ -297,12 +274,44 @@ footer p {
 	clear: both;
 }
 
-/*header*/
+/* Responsive */
 
-@media screen and (max-width: 300px) and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
+	
+	/* Header */
+
 
 	.header {
-		background-color: black;
+		text-align: center;
+		max-width: 100%;
+		margin: auto;
+		padding: 15px 0px;
+		float: none;
+		position: absolute;
+		opacity: 1;
 	}
-}
+
+	.intro a {
+		float: none;
+		margin: 0 auto;
+	}
+
+	.intro a:hover {
+		padding: 10px;
+	}
+
+	.intro {
+		float: none;
+		margin: 0 auto;
+		width: 90%;
+	}
+
+	.header nav {
+		float: none;
+		width: 100%;
+		padding-top: 10px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
 
