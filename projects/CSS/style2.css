@@ -136,6 +136,9 @@ li {
 	width: 90%;
 	height: 90%;
 	margin-bottom: 20px;
+	-webkit-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 1);
+	-moz-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 1);
+	box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 1);
 }
 
 /* Responsive */
