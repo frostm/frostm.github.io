@@ -4,8 +4,9 @@ html {
   position: relative;
   min-height: 100%;
 }
+
 body {
-	min-width: 990px;
+	min-width: 90%;
     margin: 0 0 392px; /* the bottom margin should = the footer height */
 }
 
@@ -93,7 +94,7 @@ h1 {
 	font-weight: 300;
 	font-size: 12pt;
 	line-height: 16pt;
-	width: 600px;
+	width: 50%;
 	padding-left: 0;
 	padding-top: 0px;
 	text-align: left;
@@ -195,7 +196,8 @@ nav li {
 /*Clients*/
 
 .client_container {
-	width: 510px;
+	width: 100%;
+	padding:;
 	height: 175px;
 	text-align: center;
 	margin: 0 auto;
@@ -203,7 +205,8 @@ nav li {
 }
 
 .client_container h1 {
-	text-align: left;
+	text-align: center;
+	margin: 0 auto;
 	padding-top: 75px;
 	font-family: 'Bitter', sans-serif;
 	font-weight: 400;
@@ -212,11 +215,17 @@ nav li {
 
 }
 
+.column {
+	text-align: center;
+	margin: 0 auto;
+	width: 75%;
+	height: 200px;
+}
+
 .clients {
-	width: 150px;
+	width: 18%;
 	float: left;
 	padding: 10px;
-	margin: 0 auto;
 }
 
 
@@ -237,6 +246,7 @@ nav li {
 }
 
 /*footer*/
+
 footer {
 	min-width: 990px;
 	bottom: 0;
@@ -276,33 +286,51 @@ footer p {
 
 /* Responsive */
 
-@media only screen and (max-width: 900px) {
+/*@media only screen and (max-width: 900px) {
 	
+	body {
+		width: 100%;
+		min-width: 0;
+    	margin: 0 0 0 0; /* the bottom margin should = the footer height */
+	}	
+
 	/* Header */
 
 
-	.header {
+/*	.header {
 		text-align: center;
-		max-width: 100%;
 		margin: auto;
-		padding: 15px 0px;
+		width: 100%;
 		float: none;
 		position: absolute;
 		opacity: 1;
 	}
 
-	.intro a {
-		float: none;
-		margin: 0 auto;
-	}
 
 	.intro a:hover {
+		float: none;
+		text-align: center;
+		margin: 0 auto;
+		width: 90%;
+		padding: 10px;
+	}
+
+	.intro a {
+		float: none;
+		text-align: center;
+		margin: 0 auto;
+		width: 90%;
 		padding: 10px;
 	}
 
 	.intro {
 		float: none;
 		margin: 0 auto;
+		width: 100%;
+	}
+
+	.intro p {
+		text-align: center;
 		width: 90%;
 	}
 
@@ -312,6 +340,26 @@ footer p {
 		padding-top: 10px;
 		margin: 0 auto;
 		text-align: center;
+	}
+
+
+/* projects */
+
+/*.projects{
+	width: 100%;
+}
+
+.project-links {
+	display: list-item;
+}
+
+.project-links a{
+	padding: 20px;
+}
+
+/* Footer */
+/*	footer {
+		min-width: 0;
 	}
 
 
