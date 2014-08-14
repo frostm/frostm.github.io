@@ -1,0 +1,49 @@
+body {
+	background-color: #373D39;
+}
+
+h1{
+	font-family: 'Poly', serif;
+	font-size: 42px;
+	color: #FCB03C;
+	margin-bottom: 25px;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: white;
+	line-height: 20px;
+}
+
+.wrapper {
+	width: 60%;
+	height: auto;
+	padding-top: 100px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+nav{
+	text-align: center;
+	margin: 0 auto;
+	margin: 40px;
+}
+
+li{
+	display: inline;
+
+}
+
+a{
+	text-align: center;
+	font-family: 'Poly', serif;
+	font-size: 20px;
+	color: white;
+	padding-right: 20px;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FC5B3F;
+}
