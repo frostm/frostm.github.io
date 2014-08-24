@@ -7,31 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="CSS/reset.css">
 	<link rel="stylesheet" type="text/css" href="CSS/style2.css">
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic,700italic|Bitter:400,700' rel='stylesheet' type='text/css'>
-	<script>
-			var main = main = $('.title ul');
-
-			$('.scroll').click(function(event) {
-        
-		event.preventDefault();
-
-		var full_url = this.href,
-		    parts = full_url.split('.title'),
-		    trgt = parts[1],
-		    target_offset = $('.title'+trgt).offset(),
-		    target_top = target_offset.top;
-		    
-		$('html, body').animate({scrollTop:target_top}, 500);
-
-		/* Remove active class on any li when an anchor is clicked */
-
-		main.children().removeClass();
-
-		/* Add active class to clicked anchor's parent li */
-		    
-		$(this).parent().addClass('active');
-
-		});
-	</script>
+	<script type="text/javascript" src='javascript.js'></script>
 </head>
 
 <body>
@@ -53,7 +29,7 @@
 
 			<h1>Body Benefits Website</h1>
 
-			<nav id='main'>
+			<nav>
 				<ul>
 					<li>
 						<a href="#body1" class='scroll'>Homepage</a>

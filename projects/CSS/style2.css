@@ -80,17 +80,7 @@ li {
 	top: 143px;
 }
 
-/*Project Description*/
-
-.project {
-	float: left;
-	width: 23%;
-	position: fixed;
-	height: 100%;
-	padding-left: 2%;
-	border-right: 1px solid #eeeeee;
-}
-
+/* Title Nav */
 .title {
 	position: fixed;
 	width: 100%;
@@ -112,18 +102,6 @@ li {
 	position: static;
 }
 
-.project a {
-	text-decoration: none;
-	color: #67BFA2;
-}
-
-.project p {
-	padding-bottom: 20px;
-	padding-top: 20px;
-	padding-right: 20px;
-	border-bottom: 1px solid #eeeeee;
-}
-
 .title nav {
 	text-align: center;
 	position: static;
@@ -137,14 +115,37 @@ li {
 	font-size: 14px;
 	overflow: hidden;
 }
+
 .title nav a:hover{
 	background-color: #eeeeee;
 }
 
-#main nav a:active{
+.title nav a:active{
 	background-color: #eeeeee;
 }
 
+/*Project Description*/
+
+.project {
+	float: left;
+	width: 23%;
+	position: fixed;
+	height: 100%;
+	padding-left: 2%;
+	border-right: 1px solid #eeeeee;
+}
+
+.project a {
+	text-decoration: none;
+	color: #67BFA2;
+}
+
+.project p {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	border-bottom: 1px solid #eeeeee;
+}
 
 .clear {
 	clear: both;
@@ -213,7 +214,7 @@ li {
 	/* Header */
 
 
-	.header {
+	/*.header {
 		text-align: center;
 		max-width: 100%;
 		margin: auto;
@@ -257,7 +258,7 @@ li {
 
 	/*Project Description*/
 
-	.project {
+	/*.project {
 		float: none;
 		position: static;
 		width: 75%;
@@ -267,16 +268,12 @@ li {
 	}
 
 
-	/* gutter */
 
-	.gutter {
-		width: 0%;
-	}
 
 
 	/*Project Photos*/
 
-	.photos {
+	/*.photos {
 		float: none;
 		position: static;
 		width: 100%;
