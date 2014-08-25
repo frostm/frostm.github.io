@@ -7,6 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="CSS/reset.css">
 	<link rel="stylesheet" type="text/css" href="CSS/style2.css">
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic,700italic|Bitter:400,700' rel='stylesheet' type='text/css'>
+	<script src="jquery.js"></script>
 </head>
 
 <body>
@@ -30,7 +31,7 @@
 
 			<h1>Ecotools Website</h1>
 
-			<nav>
+			<nav id='main'>
 				<ul>
 					<li>
 						<a href="#eco1" class='scroll'>Homepage</a>
@@ -49,7 +50,33 @@
 					</li>
 				</ul>
 			</nav>
-			
+
+			<script type="text/javascript">
+				$(document).ready(function(){
+    
+    $('.scroll').click(function(event) {
+        event.preventDefault();
+ 
+        var full_url = this.href;
+        
+        var parts = full_url.split('#');
+        var trgt = parts[1];
+
+        var target_offset = $('#'+trgt).offset();
+        var target_top = target_offset.top;
+
+        $('html, body').animate({scrollTop:target_top}, 500);
+
+
+    });
+    
+    $('nav#main a').click(function(){
+         $('nav#main a').removeClass('active');
+         $(this).addClass('active');
+    });
+    
+});
+			</script>		
 		
 		</div>
 

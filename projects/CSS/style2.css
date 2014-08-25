@@ -107,7 +107,7 @@ li {
 	position: static;
 }
 
-.title nav a{
+.title nav#main a{
 	border: 2px solid #eeeeee;
 	padding: 5px;
 	color: #373D39;
@@ -120,9 +120,14 @@ li {
 	background-color: #eeeeee;
 }
 
-.title nav a:active{
+.title nav#main a:hover, nav#main li.active a{
 	background-color: #eeeeee;
 }
+
+.title nav#main a:hover, nav#main li a.active {
+	background: #eeeeee; 
+}
+
 
 /*Project Description*/
 
