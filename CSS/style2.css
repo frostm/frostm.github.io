@@ -1,0 +1,311 @@
+/* styling */
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 12pt;
+	line-height: 16pt;
+	color: #373D39;
+}
+
+a {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 12pt;
+	line-height: 16pt;
+	text-decoration: none;
+	color: #373D39;
+}
+
+li {
+	list-style: none;
+	display: inline;
+}
+
+/* Header */
+.header {
+	position: fixed;
+	width: 100%;
+	background-color: #eeeeee;
+	padding: 10px 15px 10px 15px;
+	border-bottom: 1px solid #eeeeee;
+	z-index: 10;
+}
+
+.header nav {
+	float: right;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12pt;
+	padding-right: 25px;
+	list-style: none;
+}
+
+
+.header a {
+	text-decoration: none;
+	font-weight: 100;
+	color: #373D39;
+	padding-right: 20px;
+}
+
+.header a:hover {
+	text-decoration: underline;
+	color: #67BFA2;
+}
+
+.intro {
+	float: left;
+}
+
+.intro a {
+	float: left;
+	font-family: 'Bitter', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	text-decoration: none;
+	color: #67BFA2;
+}
+
+.intro a:hover {
+	color: #67BFA2;
+	text-decoration: underline;
+}
+
+
+/* Content Div */
+
+.content {
+	width: 100%;
+	position: absolute;
+	top: 143px;
+}
+
+/* Title Nav */
+.title {
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	border-bottom: 1px solid #eeeeee;
+	background-color: white;
+	z-index: 50;
+	top: 42px;
+}
+
+.title h1 {
+	font-family: 'Bitter', sans-serif;
+	font-weight: 400;
+	font-size: 20pt;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	color: #373D39;
+	text-align: center;
+	position: static;
+}
+
+.title nav {
+	text-align: center;
+	position: static;
+}
+
+.title nav#main a{
+	border: 2px solid #eeeeee;
+	padding: 5px;
+	color: #373D39;
+	margin: 5px;
+	font-size: 14px;
+	overflow: hidden;
+}
+
+.title nav a:hover{
+	background-color: #eeeeee;
+}
+
+.title nav#main a:hover, nav#main li.active a{
+	background-color: #eeeeee;
+}
+
+.title nav#main a:hover, nav#main li a.active {
+	background: #eeeeee; 
+}
+
+
+/*Project Description*/
+
+.project {
+	float: left;
+	width: 23%;
+	position: fixed;
+	height: 100%;
+	padding-left: 2%;
+	border-right: 1px solid #eeeeee;
+}
+
+.project a {
+	text-decoration: none;
+	color: #67BFA2;
+}
+
+.project p {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.clear {
+	clear: both;
+}
+
+
+/*Project Photos*/
+
+.photos {
+	float: right;
+	width: 75%;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.photos img {
+	width: 90%;
+	height: 90%;
+	margin-bottom: 50px;
+
+}
+
+.photos p {
+	font-weight: 100;
+	padding-bottom: 10px;
+
+}
+
+.photos span {
+  margin-top: -150px; 
+  padding-bottom: 150px; 
+  display: block; 
+}
+
+#gif {
+	width: 65%;
+}
+
+#email {
+	width: 80%;
+}
+
+
+/*Flag */
+
+.flag-arrow {
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 21px 0 20.5px 21px;
+	border-color: transparent transparent transparent #67BFA2;
+	float: left;
+
+}
+
+.flag {
+	background-color: #67BFA2;
+	width: auto;
+	float: left;
+	margin-bottom: 20px;
+
+}
+
+.flag p {
+	padding: 10px;
+	color: white;
+	padding-left: 20px;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 900px) {
+	
+	/* Header */
+
+
+	/*.header {
+		text-align: center;
+		max-width: 100%;
+		margin: auto;
+		padding: 15px 0px;
+		float: none;
+		position: absolute;
+	}
+
+	.intro a {
+		float: none;
+		position: static;
+		padding: 0;
+		margin: 0 auto;
+	}
+
+	.intro a:hover {
+		padding: 0;
+	}
+
+	.intro {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+		position: absolute;
+	}
+
+	.header nav {
+		float: none;
+		width: 90%;
+		padding-bottom: 10px;
+		top: 15px;
+		margin: 0 auto;
+		text-align: center;
+		position: relative;
+	}
+
+	.content {
+		padding: 0px;
+		top: 125px;
+	}
+
+	/*Project Description*/
+
+	/*.project {
+		float: none;
+		position: static;
+		width: 75%;
+		padding-bottom: 30px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+
+
+
+
+	/*Project Photos*/
+
+	/*.photos {
+		float: none;
+		position: static;
+		width: 100%;
+		text-align: center;
+
+	}
+
+	.photos img {
+		margin: 0 auto;
+		width: 90%;
+		height: 90%;
+		margin-bottom: 10px;
+	}
+}
+
+
+
+
+
+
+
+
