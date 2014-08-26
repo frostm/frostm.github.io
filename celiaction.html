@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Celiaction Study</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="CSS/reset.css">
+	<link rel="stylesheet" type="text/css" href="CSS/style2.css">
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic,700italic|Bitter:400,700' rel='stylesheet' type='text/css'>
+	<script src="jquery.js"></script>
+</head>
+
+<body>
+	
+	<section class='header'>
+		<div class='intro'>
+			<a href="http://www.meghanfrostdesigns.com/">&lt Meghan's Portfolio</a>
+			<div class='clear'></div>
+		</div>
+		
+		<nav> <a target="_blank" href="Images/Resume.pdf">Resume</a>
+			 <a href="https://twitter.com/MeghanFrost">@MeghanFrost</a> 
+			 <a href="https://www.linkedin.com/pub/meghan-frost/23/796/a78/">LinkedIn</a>
+		</nav>
+	</section>
+
+
+	<div class='title'>
+
+			<h1>Celiaction Study Website</h1>
+
+			<nav id='main'>
+				<ul>
+					<li>
+						<a href="#celiac1" class='scroll'>Homepage</a>
+					</li>
+
+					<li>
+						<a href="#celiac2" class='scroll'>About the Study</a>
+					</li>
+
+					<li>
+						<a href="#celiac3" class='scroll'>FAQs</a>
+					</li>
+
+				</ul>
+			</nav>
+
+			<script type="text/javascript">
+				
+				$(document).ready(function(){
+    
+			    $('.scroll').click(function(event) {
+			        event.preventDefault();
+			 
+			        var full_url = this.href;
+			        
+			        var parts = full_url.split('#');
+			        var trgt = parts[1];
+
+			        var target_offset = $('#'+trgt).offset();
+			        var target_top = target_offset.top;
+
+			        $('html, body').animate({scrollTop:target_top}, 500);
+
+			    });
+			    
+			    $('nav#main a').click(function(){
+			         $('nav#main a').removeClass('active');
+			         $(this).addClass('active');
+			    });
+			    
+				});
+			</script>	
+			
+		
+		</div>
+
+
+	<section class = 'content'>
+
+
+		<div class='project'>
+
+			<p><a href="http://www.celiactionstudy.com">celiactionstudy.com</a><br><br>Even though Body Benefits is America's #1 bath accessory brand, they've previously put little effort behind growing their brand image. I helped develop a fully responsive, socially driven site to help grow this image in the minds of consumers.
+			</p>
+
+			<p>Role: Lead Designer</p>
+
+	
+		</div>
+
+
+		
+		<div class='photos'>
+
+
+			<span id="celiac1"> &nbsp; </span>
+			<img src="Images/celiac-1.jpg"><br>
+
+
+			<span id="celiac2"> &nbsp; </span>
+			<img src="Images/celiac-2.jpg"><br>
+
+			<span id="celiac3"> &nbsp; </span>
+			<img src="Images/celiac-3.jpg"><br>
+
+		</div>
+
+	</section>
+
+<div class='clear'></div>
+
+
+
+
+
+</body>
+</html>
