@@ -98,20 +98,23 @@ nav li {
 
 .projects {
 	height: 100%;
-	width: 100%;
+	width: 90%;
 	margin: 0 auto;
 	padding-top: 75px;
 }
 
 .projects div {
-	width: 50%;
+	width: 48%;
 	height: 175px;
 	float: left;
 	text-align: center;
+	margin: 1%;
 }
 
 .projects div img {
 	width: 75%;
+	height: auto;
+	overflow: hidden;
 	max-width: 275px;
 	padding-top: 70px;
 }
@@ -128,8 +131,16 @@ nav li {
 	background-color: #eb5b74;
 }
 
+.project-3 img.adjust {
+	padding-top: 40px;
+}
+
 .project-4 {
 	background-color: #92aace;
+}
+
+.project-4 img.adjust {
+	padding-top: 50px;
 }
 
 .project-5 {
