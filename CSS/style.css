@@ -93,127 +93,87 @@ nav li {
 }
 
 
-/* Backgrounds*/
-
-
-.Brand {
-	width: 100%;
-	height: auto;
-	padding: 50px, 0;
-	margin: 0 auto;
-	background-color: #373D39;
-}
-
-.Social {
-	width: 100%;
-	height: auto;
-	padding: 50px, 0;
-	margin: 0 auto;
-	background-color: #67BFA2;
-}
-
-.Health {
-	width: 100%;
-	height: auto;
-	padding: 50px, 0;
-	margin: 0 auto;
-	background-color: #EDE6C3;
-}
-
-.Freelance {
-	width: 100%;
-	height: auto;
-	padding: 50px, 0;
-	margin: 0 auto;
-	background-color: white;
-}
-
-
 
 /* Projects*/
 
-.Projects{
-	position: relative;
-	top: 93px;
-}
-
-.Projects h1 {
-	color: white;
-	text-shadow: 2px 2px 1px black;
+.projects {
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
 	padding-top: 75px;
 }
 
-.Projects .Health h1 {
-	color: #373D39;
-	text-shadow: 2px 2px 1px white;
-}
-
-.Projects .Freelance h1 {
-	color: #373D39;
-	text-shadow: 2px 2px 1px white;
-}
-
-.Projects p {
-	color: white;
-}
-
-.Projects .Health p {
-	color: #373D39;
-}
-
-.Projects .Freelance p {
-	color: #373D39;
-}
-
-.project-links {
+.projects div {
+	width: 50%;
+	height: 175px;
+	float: left;
 	text-align: center;
-	width: 100%;
-	margin: 0 auto;
-	height: auto;
-	padding-bottom: 75px;
-	padding-top: 25px;
-	display: inline-block;
 }
 
-.project-links a{
-	padding: 10px;
+.projects div img {
+	width: 75%;
+	max-width: 275px;
+	padding-top: 70px;
 }
 
-.project-links img {
-	padding: 10px;
+.project-1 {
+	background-color: #b3cd60;
 }
+
+.project-2 {
+	background-color: #725e81;
+}
+
+.project-3 {
+	background-color: #eb5b74;
+}
+
+.project-4 {
+	background-color: #92aace;
+}
+
+.project-5 {
+	background-color: #92aace;
+}
+
 
 
 
 /*Clients*/
 
 .client_container {
-	width: 510px;
-	height: 175px;
+	width: 75%;
+	overflow: hidden;
 	text-align: center;
 	margin: 0 auto;
-
 }
 
 .client_container h1 {
-	text-align: left;
-	padding-top: 125px;
+	text-align: center;
 	font-family: 'Bitter', sans-serif;
 	font-weight: 400;
 	font-size: 17pt;
 	padding-bottom: 10px;
+	padding-top: 25px;
 
 }
 
-.clients {
-	width: 150px;
+.wrapper {
+	width: 75%;
+	margin: 0 auto;
+	text-align: center;
+	overflow: auto;
+}
+
+.wrapper div {
+	width: 25%;
 	float: left;
-	padding: 10px;
+	padding: 4%;
 	margin: 0 auto;
 }
 
 
-.clients h2 {
+.wrapper h2 {
 	font-family: 'Bitter', serif;
 	font-weight: 600;
 	font-size: 10pt;
@@ -221,7 +181,7 @@ nav li {
 	margin-bottom: 5px;
 }
 
-.clients li {
+.wrapper li {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
 	font-size: 10pt;
