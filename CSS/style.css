@@ -2,11 +2,10 @@
 
 html {
   position: relative;
-  min-height: 100%;
+  min-width: 100%;
 }
 
 body {
-	min-width: 90%;
     margin: 0 0 392px; /* the bottom margin should = the footer height */
 }
 
@@ -31,84 +30,96 @@ h1 {
 }
 
 
+
 /* Header */
-.header {
-	position: fixed;
+
+.bar {
 	width: 100%;
-	background-color: white;
-	opacity: .95;
-	padding: 20px;
+	height: 20px;
+	position: absolute;
+	left: 0;
 	top: 0;
-	z-index: 100;
-	border-bottom: 2px solid #eeeeee; 
+	right: 0;
+	background-color: #eeeeee;
 }
 
-
-.header nav{
-	float: right;	
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 300;
-	font-size: 12pt;
-	padding-right: 25px;
-}
-
-.header a {
-	text-decoration: none;
-	color: #67BFA2;
-	padding-right: 20px;
-}
-
-.header a:hover {
-	text-decoration: underline;
-	color: #67BFA2;
-	padding-right: 20px;
+.header {
+	width: 60%;
+	margin: 0 auto;
 }
 
 .intro {
-	float: left;
+	padding-top: 150px;
+	padding-bottom: 50px;
 }
 
-.intro a {
-	float: left;
+.intro h1 {
 	font-family: 'Bitter', sans-serif;
-	font-size: 18;
-	font-weight: 700;
-	text-decoration: none;
-	color: #373D39;
-	line-height: 16pt;
+	font-weight: 400;
+	font-size: 28px;
+	color: #465057;
+	text-align: left;
+	line-height: 40px;
 }
 
-.intro a:hover {
-	float: left;
-	font-family: 'Bitter', sans-serif;
-	font-size: 18;
-	font-weight: 700;
-	text-decoration: none;
-	color: #67BFA2;
-	line-height: 16pt;
+.intro h1 .callout {
+	font-size: 36px;
+	font-weight: 600;
 }
 
-nav li {
+.intro h1 .callout:hover{
+	color: #63A599;
+}
+
+.header nav {
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 150px;
+}
+
+.header ul li {
 	display: inline;
 }
 
+nav a{
+	margin: 0 auto;
+	border: 2px solid #eeeeee;
+	padding: 10px;
+	color: #465057;
+	margin: 10px;
+	font-size: 18px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	text-decoration: none;
+	color: #373D39;
+}
+
+nav a:hover{
+	background-color: #eeeeee;
+}
 
 
 /* Projects*/
 
 .projects {
-	height: 100%;
-	width: 90%;
+	text-align: center;
+	height: auto;
+	width: 100%;
 	margin: 0 auto;
-	padding-top: 75px;
+	overflow: hidden;
+	margin-bottom: 100px;
 }
 
 .projects div {
-	width: 48%;
+	width: 49.5%;
 	height: 175px;
 	float: left;
 	text-align: center;
-	margin: 1%;
+	margin: 0.25%;
+}
+
+.projects a{
+	display: block;
 }
 
 .projects div img {
@@ -120,14 +131,26 @@ nav li {
 }
 
 .project-1 {
+	background-color: #63A599;
+}
+
+.project-1:hover{
 	background-color: #b3cd60;
 }
 
 .project-2 {
+	background-color: #465057;
+}
+
+.project-2:hover {
 	background-color: #725e81;
 }
 
 .project-3 {
+	background-color: #465057;
+}
+
+.project-3:hover {
 	background-color: #eb5b74;
 }
 
@@ -136,6 +159,10 @@ nav li {
 }
 
 .project-4 {
+	background-color: #63A599;
+}
+
+.project-4:hover {
 	background-color: #92aace;
 }
 
@@ -144,7 +171,19 @@ nav li {
 }
 
 .project-5 {
-	background-color: #92aace;
+	background-color: #63A599;
+}
+
+.project-5:hover{
+	background-color: #b3cd60;
+}
+
+.project-6 {
+	background-color: #465057;
+}
+
+.project-6:hover {
+	background-color: #725e81;
 }
 
 
@@ -163,9 +202,10 @@ nav li {
 	text-align: center;
 	font-family: 'Bitter', sans-serif;
 	font-weight: 400;
-	font-size: 17pt;
+	font-size: 28px;
 	padding-bottom: 10px;
 	padding-top: 25px;
+	color: #465057;
 
 }
 
@@ -187,23 +227,24 @@ nav li {
 .wrapper h2 {
 	font-family: 'Bitter', serif;
 	font-weight: 600;
-	font-size: 10pt;
+	font-size: 16px;
 	text-align: left;
 	margin-bottom: 5px;
+	color: #465057;
 }
 
 .wrapper li {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
-	font-size: 10pt;
+	font-size: 16px;
 	line-height: 1.75;
 	text-align: left;
+	color: #465057;
 }
 
 /*footer*/
 
 footer {
-	min-width: 990px;
 	bottom: 0;
 	left: 0;
 	width: 100%;
@@ -228,8 +269,8 @@ footer {
 
 footer p {
 	font-weight: 300;
-	font-size: 10pt;
-	padding-left: 50px;
+	font-size: 16px;
+	padding-left: 2%;
 	margin-top: 100px;
 	color: white;
 	float: left;
@@ -238,83 +279,3 @@ footer p {
 .clear {
 	clear: both;
 }
-
-/* Responsive */
-
-/*@media only screen and (max-width: 900px) {
-	
-	body {
-		width: 100%;
-		min-width: 0;
-    	margin: 0 0 0 0; /* the bottom margin should = the footer height */
-	}	
-
-	/* Header */
-
-
-/*	.header {
-		text-align: center;
-		margin: auto;
-		width: 100%;
-		float: none;
-		position: absolute;
-		opacity: 1;
-	}
-
-
-	.intro a:hover {
-		float: none;
-		text-align: center;
-		margin: 0 auto;
-		width: 90%;
-		padding: 10px;
-	}
-
-	.intro a {
-		float: none;
-		text-align: center;
-		margin: 0 auto;
-		width: 90%;
-		padding: 10px;
-	}
-
-	.intro {
-		float: none;
-		margin: 0 auto;
-		width: 100%;
-	}
-
-	.intro p {
-		text-align: center;
-		width: 90%;
-	}
-
-	.header nav {
-		float: none;
-		width: 100%;
-		padding-top: 10px;
-		margin: 0 auto;
-		text-align: center;
-	}
-
-
-/* projects */
-
-/*.projects{
-	width: 100%;
-}
-
-.project-links {
-	display: list-item;
-}
-
-.project-links a{
-	padding: 20px;
-}
-
-/* Footer */
-/*	footer {
-		min-width: 0;
-	}
-
-
