@@ -174,8 +174,12 @@ nav a:hover{
 	background-color: #63A599;
 }
 
+.project-5 img.adjust {
+	padding-top: 35px;
+}
+
 .project-5:hover{
-	background-color: #b3cd60;
+	background-color: #125e5f;
 }
 
 .project-6 {
