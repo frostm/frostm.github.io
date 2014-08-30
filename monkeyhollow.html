@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Monkey Hollow</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="CSS/reset.css">
+	<link rel="stylesheet" type="text/css" href="CSS/style2.css">
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic,600italic,700italic|Bitter:400,700' rel='stylesheet' type='text/css'>
+	<script src="jquery.js"></script>
+</head>
+
+<body>
+	
+	<section class='header'>
+		<div class='intro'>
+			<a href="http://www.meghanfrostdesigns.com">&lt Meghan's Portfolio</a>
+			<div class='clear'></div>
+		</div>
+		
+		<nav> 
+			<a target="_blank" href="Images/Resume.pdf">Resume</a>
+			<a href="https://twitter.com/MeghanFrost">@MeghanFrost</a>
+			<a href="https://www.linkedin.com/pub/meghan-frost/23/796/a78/">LinkedIn</a>
+		</nav>
+	</section>
+	
+<div class='clear'></div>
+
+	<div class='title'>
+
+			<h1>Monkey Hollow Branding</h1>
+
+			<nav id='main'>
+				<ul>
+					<li>
+						<a href="#monkey1" class='scroll'>Brand Logo</a>
+					</li>
+
+					<li>
+						<a href="#monkey2" class='scroll'>Pasture Limit</a>
+					</li>
+
+					<li>
+						<a href="#monkey3" class='scroll'>Pasture Mark</a>
+					</li>
+
+					<li>
+						<a href="#monkey4" class='scroll'>Pasture Bedtime</a>
+					</li>
+
+					<li>
+						<a href="#monkey5" class='scroll'>Combined</a>
+					</li>
+
+
+				</ul>
+			</nav>
+
+			<script type="text/javascript">
+				
+				$(document).ready(function(){
+    
+			    $('.scroll').click(function(event) {
+			        event.preventDefault();
+			 
+			        var full_url = this.href;
+			        
+			        var parts = full_url.split('#');
+			        var trgt = parts[1];
+
+			        var target_offset = $('#'+trgt).offset();
+			        var target_top = target_offset.top;
+
+			        $('html, body').animate({scrollTop:target_top}, 500);
+
+			    });
+			    
+			    $('nav#main a').click(function(){
+			         $('nav#main a').removeClass('active');
+			         $(this).addClass('active');
+			    });
+			    
+				});
+			</script>		
+		
+		</div>
+
+
+	<section class = 'content'>
+	
+
+		</div>
+
+
+		<div class='project'>
+
+			<p>Served as lead designer on entire redesign of the EcoTools website. Worked directly with brand team and clients to create a clean, modern experience that brought the brand's unique assets to light while focusing on promoting e-commerce.
+			</p>
+
+			<p>Role: Lead Designer</p>
+		
+		</div>
+
+<div class='clear'></div>
+
+
+		<div class='photos' id='smaller'>
+
+			<span id="monkey1"> &nbsp; </span>
+			<img id='logo' src="Images/monkey-logo.jpg">
+			<br>
+
+			<span id="monkey2"> &nbsp; </span>
+			<span class='smaller'>
+				<img src="Images/monkey-1.jpg">
+			</span>
+			<br>
+
+			<span id="monkey3"> &nbsp; </span>
+			<span class='smaller'>
+				<img src="Images/monkey-2.jpg">
+			</span>
+			<br>
+
+			<span id="monkey4"> &nbsp; </span>
+			<span class='smaller'>
+				<img src="Images/monkey-3.jpg">
+			</span>
+			<br>
+
+			<span id="monkey5"> &nbsp; </span>
+			<span class='smaller'>
+				<img src="Images/monkey-4.jpg">
+			</span>
+			<br>
+
+		</div>
+
+	</section>
+
+
+<div class='clear'></div>
+
+
+</body>
+</html>
