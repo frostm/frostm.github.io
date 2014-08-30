@@ -166,6 +166,10 @@ li {
 	padding-top: 15px;
 }
 
+.photos#smaller {
+	margin-top: -155px;
+}
+
 #logo {
 	width: 40%;
 	padding-bottom: 150px;
@@ -174,8 +178,6 @@ li {
 .photos img {
 	width: 90%;
 	height: 90%;
-	margin-bottom: 50px;
-
 }
 
 .smaller img {
@@ -196,7 +198,7 @@ li {
 }
 
 .photos#smaller span {
-  margin-top: -5px; 
+  margin-top: -2px; 
   padding-bottom: 155px; 
   display: block; 
 }
